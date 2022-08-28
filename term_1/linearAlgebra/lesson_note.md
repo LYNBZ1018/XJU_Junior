@@ -49,3 +49,13 @@
 ​     
 
 ### 三、向量 Vector
+
+![IMG_2302(20220829-000434)](https://gitee.com/lynbz1018/image/raw/master/img/20220829000612.JPG)
+
+#### 相关性与线性表示概念
+
+![IMG_2303(20220829-000434)](https://gitee.com/lynbz1018/image/raw/master/img/20220829000623.JPG)
+
+#### 相关性与线性表示性质
+
+![IMG_2304(20220829-000434)](https://gitee.com/lynbz1018/image/raw/master/img/20220829000711.JPG)
