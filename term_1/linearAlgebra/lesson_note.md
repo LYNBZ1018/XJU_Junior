@@ -1,6 +1,6 @@
 ## 线性代数 Linear Algebra
 
-### 一、行列式
+### 一、行列式 Determinant
 
 ![IMG_2279(20220827-203119)](https://gitee.com/lynbz1018/image/raw/master/img/20220827203349.JPG)
 
@@ -8,7 +8,13 @@
 
 ![IMG_2280(20220827-203119)](https://gitee.com/lynbz1018/image/raw/master/img/20220827203417.JPG)
 
-### 二、矩阵
+​      
+
+****
+
+​     
+
+### 二、矩阵 Matrix
 
 ![IMG_2281(20220827-203119)](https://gitee.com/lynbz1018/image/raw/master/img/20220827203425.JPG)
 
@@ -27,3 +33,19 @@
 
 
 #### 矩阵的秩![IMG_2285(20220827-203119)](https://gitee.com/lynbz1018/image/raw/master/img/20220827203502.JPG)
+
+#### 秩的性质
+
+![IMG_2288(20220828-151236)](https://gitee.com/lynbz1018/image/raw/master/img/20220828151525.JPG)
+
+
+
+![IMG_2289(20220828-151236)](https://gitee.com/lynbz1018/image/raw/master/img/20220828151548.JPG)
+
+​    
+
+*****
+
+​     
+
+### 三、向量 Vector
