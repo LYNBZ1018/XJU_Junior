@@ -50,6 +50,8 @@
 
 ### 三、向量 Vector
 
+#### 向量的定义
+
 ![IMG_2302(20220829-000434)](https://gitee.com/lynbz1018/image/raw/master/img/20220829000612.JPG)
 
 #### 相关性与线性表示概念
@@ -59,3 +61,18 @@
 #### 相关性与线性表示性质
 
 ![IMG_2304(20220829-000434)](https://gitee.com/lynbz1018/image/raw/master/img/20220829000711.JPG)
+
+#### 向量组等价、极大组、向量组的秩
+
+![IMG_2310(20220829-224628)](https://gitee.com/lynbz1018/image/raw/master/img/20220829232801.JPG)
+
+#### Notes
+
+![IMG_2311(20220829-224628)](https://gitee.com/lynbz1018/image/raw/master/img/20220829232731.JPG)
+
+#### 向量组的秩 性质
+
+![IMG_2314(20220829-232506)](https://gitee.com/lynbz1018/image/raw/master/img/20220829232738.JPG)
+
+
+
