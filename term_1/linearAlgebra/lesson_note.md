@@ -76,3 +76,24 @@
 
 
 
+### 四、线性方程组
+
+#### 三种表示形式
+
+![IMG_2326(20220830-233643)](https://gitee.com/lynbz1018/image/raw/master/img/20220830233810.JPG)
+
+#### 三种形式之间的联系
+
+![IMG_2327(20220830-233643)](https://gitee.com/lynbz1018/image/raw/master/img/20220830233948.JPG)
+
+#### 解的理论
+
+![IMG_2328(20220830-233643)](https://gitee.com/lynbz1018/image/raw/master/img/20220830234041.JPG)
+
+#### 解的结构
+
+![IMG_2329(20220830-233643)](https://gitee.com/lynbz1018/image/raw/master/img/20220830234048.JPG)
+
+
+
+![IMG_2330(20220830-233643)](https://gitee.com/lynbz1018/image/raw/master/img/20220830234053.JPG)
