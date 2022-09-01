@@ -61,3 +61,23 @@
 
 
 
+* 硬盘分区
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220901103252.png" alt="image-20220901103250516" style="zoom:67%;" />
+
+* IDE接口 /dev/hd
+* SATA接口 /dev/sd
+* 1-4留给主分区或扩展分区使用
+* 逻辑分区从5开始
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220901103349.png" alt="image-20220901103348113" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220901103624.png" alt="image-20220901103623467" style="zoom:67%;" />
+
+* Ctrl Alt F1 创建多个虚拟控制台
+
+![image-20220901113419242](https://gitee.com/lynbz1018/image/raw/master/img/20220901113420.png)
+
+* shutdown && reboot
+
+![image-20220901113903205](https://gitee.com/lynbz1018/image/raw/master/img/20220901113904.png)
