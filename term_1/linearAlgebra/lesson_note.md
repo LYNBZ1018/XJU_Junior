@@ -121,3 +121,7 @@
 #### 特征值性质
 
 ![IMG_2360(20220904-234730)](https://gitee.com/lynbz1018/image/raw/master/img/20220904235231.JPG)
+
+#### 实对称矩阵
+
+![IMG_2367(20220905-003612)](https://gitee.com/lynbz1018/image/raw/master/img/20220905003826.JPG)
