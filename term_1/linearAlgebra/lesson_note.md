@@ -97,3 +97,27 @@
 
 
 ![IMG_2330(20220830-233643)](https://gitee.com/lynbz1018/image/raw/master/img/20220830234053.JPG)
+
+
+
+![IMG_2363(20220904-234953)](https://gitee.com/lynbz1018/image/raw/master/img/20220904235033.JPG)
+
+
+
+### 五、特征值与特征向量
+
+#### 二次型
+
+![IMG_2357(20220904-234730)](https://gitee.com/lynbz1018/image/raw/master/img/20220904235054.JPG)
+
+#### 特征值定义
+
+![IMG_2358(20220904-234730)](https://gitee.com/lynbz1018/image/raw/master/img/20220904235143.JPG)
+
+#### 相似矩阵
+
+![IMG_2359(20220904-234730)](https://gitee.com/lynbz1018/image/raw/master/img/20220904235205.JPG)
+
+#### 特征值性质
+
+![IMG_2360(20220904-234730)](https://gitee.com/lynbz1018/image/raw/master/img/20220904235231.JPG)
