@@ -1,4 +1,4 @@
-# Thought
+#  Thought
 
 ## 成绩占比
 
@@ -85,3 +85,18 @@
 3. 
 
 ![image-20220830193549349](https://gitee.com/lynbz1018/image/raw/master/img/20220830193550.png)
+
+
+
+
+
+## Week2
+
+`2022/9/6`
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220906180336814.png" alt="image-20220906180336814" style="zoom:50%;" />
+
+
+

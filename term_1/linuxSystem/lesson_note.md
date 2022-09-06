@@ -81,3 +81,31 @@
 * shutdown && reboot
 
 ![image-20220901113903205](https://gitee.com/lynbz1018/image/raw/master/img/20220901113904.png)
+
+
+
+## Week2
+
+`2022/9/5`
+
+### 文件系统及常用命令
+
+
+
+#### 本章内容
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220905164039.png" alt="image-20220905164038056" style="zoom:50%;" />
+
+
+
+* 文件的成分
+  * 索引节点
+  * 数据
+
+#### 文件的命名
+
+![image-20220905165916403](https://gitee.com/lynbz1018/image/raw/master/img/20220905165917.png)
+
+#### 一些基本的文件库
+
+![image-20220905170521292](https://gitee.com/lynbz1018/image/raw/master/img/20220905170522.png)
