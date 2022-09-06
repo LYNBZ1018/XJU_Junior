@@ -125,3 +125,47 @@
 #### 实对称矩阵
 
 ![IMG_2367(20220905-003612)](https://gitee.com/lynbz1018/image/raw/master/img/20220905003826.JPG)
+
+
+
+#### 对角化过程
+
+##### 非对称矩阵
+
+![IMG_2382(20220906-221209)](https://gitee.com/lynbz1018/image/raw/master/img/20220906221400.JPG)
+
+
+
+##### 对称矩阵
+
+![IMG_2383(20220906-221209)](https://gitee.com/lynbz1018/image/raw/master/img/20220906221502.JPG)
+
+
+
+#### λ求法
+
+![IMG_2384(20220906-221209)](https://gitee.com/lynbz1018/image/raw/master/img/20220906221531.JPG)
+
+
+
+![IMG_2385(20220906-221209)](https://gitee.com/lynbz1018/image/raw/master/img/20220906221624.JPG)
+
+
+
+#### 矩阵对角化判断
+
+![IMG_2386(20220906-221209)](https://gitee.com/lynbz1018/image/raw/master/img/20220906221655.JPG)
+
+
+
+### 六、二次型
+
+#### 定义
+
+![IMG_2387(20220906-221209)](https://gitee.com/lynbz1018/image/raw/master/img/20220906221722.JPG)
+
+
+
+#### 标准化-正交交换法
+
+![IMG_2388(20220906-221210)](https://gitee.com/lynbz1018/image/raw/master/img/20220906221751.JPG)
