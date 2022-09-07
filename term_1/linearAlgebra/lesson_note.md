@@ -1,4 +1,4 @@
-## 线性代数 Linear Algebra
+线性代数 Linear Algebra
 
 ### 一、行列式 Determinant
 
@@ -169,3 +169,15 @@
 #### 标准化-正交交换法
 
 ![IMG_2388(20220906-221210)](https://gitee.com/lynbz1018/image/raw/master/img/20220906221751.JPG)
+
+#### 正定二次型
+
+
+
+![IMG_2392(20220907-120113)](https://gitee.com/lynbz1018/image/raw/master/img/20220907120238.JPG)
+
+#### 判别法
+
+
+
+![IMG_2393(20220907-120113)](https://gitee.com/lynbz1018/image/raw/master/img/20220907120254.JPG)
