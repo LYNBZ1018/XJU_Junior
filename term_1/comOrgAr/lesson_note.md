@@ -73,7 +73,62 @@
 
 ![image-20220831141507503](https://gitee.com/lynbz1018/image/raw/master/img/20220831141508.png)
 
+##### 2.1运算器
 
+* 如果有三个总线 两个输入一个输出 可以不用寄存器
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220907120530.png" alt="image-20220907120529299" style="zoom:50%;" />
+
+##### 2.2存储器
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220907122538.png" alt="image-20220907122536813" style="zoom:67%;" />
+
+
+
+##### 2.3控制器
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220907123006.png" alt="image-20220907123005412" style="zoom:67%;" />
+
+
+
+##### 程序计数器PC 
+
+* **程序的第一条指**令位于PC程序计数器中
+* 获取第一条指令后，**通过增量，能够使指令自动的执行**
+* 在分析指令后才有数据的地址
+* 数据地址在指令中，**但是执行的时间段不同**，所以指令和数据都是二进制编码 但不会混淆
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220907130754.png" alt="image-20220907130753198" style="zoom: 80%;" />
+
+#### 3.计算机软件
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220907134614985.png" alt="image-20220907134614985" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220907134649679.png" alt="image-20220907134649679" style="zoom:33%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220907134715412.png" alt="image-20220907134715412" style="zoom:67%;" />
+
+
+
+#### Amdhal定律
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220907135037.png" alt="image-20220907135035851" style="zoom:67%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220907135303.png" alt="image-20220907135302308" style="zoom:50%;" />
+
+
+
+#### 本章小结
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220907134231.png" alt="image-20220907134230050" style="zoom:67%;" />
 
 
 
@@ -94,3 +149,33 @@
 ​    
 
 ****
+
+
+
+## Week2
+
+`2022/9/7`
+
+
+
+### 第二章、运算方法和运算器
+
+
+
+#### 1.大纲要点
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220907135534198.png" alt="image-20220907135534198" style="zoom:50%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220907135734548.png" alt="image-20220907135734548" style="zoom: 50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220907135750722.png" alt="image-20220907135750722" style="zoom:50%;" />
+
+
+
+#### 2.数据与文字的表示方法
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220907140336404.png" alt="image-20220907140336404" style="zoom:33%;" />
