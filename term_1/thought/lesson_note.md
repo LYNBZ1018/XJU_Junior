@@ -100,3 +100,12 @@
 
 
 
+
+
+## Week3
+
+`2022/9/13`
+
+* 马克思主义的真谛
+
+![image-20220913173133567](https://gitee.com/lynbz1018/image/raw/master/img/20220913173134.png)
