@@ -67,3 +67,11 @@
 * 算法的空间复杂度是指算法执行过程中**所占辅助空间的大小**
 
 ![image-20220908113112305](https://gitee.com/lynbz1018/image/raw/master/img/20220908113113.png)
+
+
+
+## Week3
+
+### 3算法基本工具和优化技巧
+
+![image-20220914110035452](https://gitee.com/lynbz1018/image/raw/master/img/20220914110036.png)
