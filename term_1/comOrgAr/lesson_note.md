@@ -179,3 +179,99 @@
 
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220907140336404.png" alt="image-20220907140336404" style="zoom:33%;" />
+
+
+
+### Week3
+
+`2022/9/14`
+
+* 为甚要用二进制表示数据
+
+![image-20220914120205262](https://gitee.com/lynbz1018/image/raw/master/img/20220914120206.png)
+
+
+
+#### 3.数据格式：定点表示法
+
+* 小数点位置固定
+  * 纯整数
+  * 纯小数
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914120701.png" alt="image-20220914120700456" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914120910358.png" alt="image-20220914120910358" style="zoom: 50%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914121345485.png" alt="image-20220914121345485" style="zoom:50%;" />
+
+##### 原码表示法
+
+* 用0表示 + 
+* 用1表示 -
+* 用8位原码表示，整数前边+0 小数后边+0
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914122024.png" alt="image-20220914122023827" style="zoom: 50%;" />
+
+1. 0有两种表示 +0 -0
+2. 定点小数：-1 < X < 1; 定点整数：-2^n < X < 2^n
+3. 与真值对应关系简单；参与复杂运算需要将数值位和符号位分开考虑。
+
+##### 补码表示法
+
+* 正数不变
+* 负数，定点小数[2 - |x|], 定点整数[2^n - |x|]
+* 整数的补码数值位 原码按位取反再加1  **从左开始按位取反最后一个1和后边的不变**
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914125144472.png" alt="image-20220914125144472" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914125811710.png" alt="image-20220914125811710" style="zoom:67%;" />
+
+* +0 = -0 = 0000 零有唯一表示
+
+* 补码表示范围可以表示 -1 和 2^n
+  * 因为在补码中0的表示是唯一的 原码中0有两种表示
+* 补码求原码 ，对补码在求一次补码
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914130521294.png" alt="image-20220914130521294" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914131407113.png" alt="image-20220914131407113" style="zoom:50%;" />
+
+* 补码运算
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914131650.png" alt="image-20220914131649413" style="zoom:67%;" />
+
+##### 反码表示
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914132045.png" alt="image-20220914132044271" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914132101693.png" alt="image-20220914132101693" style="zoom:50%;" />
+
+##### 移码表示
+
+* 0的移码：1000
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914132406298.png" alt="image-20220914132406298" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914132557074.png" alt="image-20220914132557074" style="zoom:50%;" />
+
+##### Summary
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914134233122.png" alt="image-20220914134233122" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914133335.png" alt="image-20220914133334067" style="zoom: 50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914133454862.png" alt="image-20220914133454862" style="zoom: 50%;" />
+
+#### 4.浮点数
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914140709.png" alt="image-20220914140707689" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220914141324246.png" alt="image-20220914141324246" style="zoom:50%;" />
+
+##### 规格化
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914141355.png" alt="image-20220914141354045" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914141446.png" alt="image-20220914141444912" style="zoom:50%;" />
