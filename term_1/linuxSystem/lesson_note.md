@@ -108,4 +108,34 @@
 
 #### 一些基本的文件库
 
-![image-20220905170521292](https://gitee.com/lynbz1018/image/raw/master/img/20220905170522.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220905170522.png" alt="image-20220905170521292" style="zoom:67%;" />
+
+## Week3
+
+`2022/9/15`
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915101902051.png" alt="image-20220915101902051" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915102525524.png" alt="image-20220915102525524" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915103905299.png" alt="image-20220915103905299" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915104214496.png" alt="image-20220915104214496" style="zoom:67%;" />
+
+#### 文件类型
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915113544300.png" alt="image-20220915113544300" style="zoom:50%;" />
+
+* 目录文件
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915113620845.png" alt="image-20220915113620845" style="zoom:50%;" />
+
+* 设备文件
+  * 字符设备 c character
+  * 块设备 b block
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220915113638.png" alt="image-20220915113637621" style="zoom:50%;" />
+
+* 符号链接文件
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915113727028.png" alt="image-20220915113727028" style="zoom:50%;" />
