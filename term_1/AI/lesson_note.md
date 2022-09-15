@@ -21,7 +21,21 @@
 
 
 
+## Week3
 
+* 知识表示
+
+![image-20220915130554580](https://gitee.com/lynbz1018/image/raw/master/img/20220915130555.png)
+
+* 通过机器理解文本中的知识
+
+![image-20220915131542116](https://gitee.com/lynbz1018/image/raw/master/img/20220915131543.png)
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915132355543.png" alt="image-20220915132355543" style="zoom: 50%;" />
+
+* 本体
+
+![image-20220915134417235](https://gitee.com/lynbz1018/image/raw/master/img/20220915134418.png)
 
 
 
@@ -34,10 +48,18 @@
 
 ![image-20220901140042391](https://gitee.com/lynbz1018/image/raw/master/img/20220901140100.png)
 
-2. 
+2.  
 
 ![image-20220908134029036](https://gitee.com/lynbz1018/image/raw/master/img/20220908134030.png)
 
-3. 
+3.  
 
 ![image-20220908140450249](https://gitee.com/lynbz1018/image/raw/master/img/20220908140451.png)
+
+4. 
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220915133849.png" alt="image-20220915133848186" style="zoom: 67%;" />
+
+5. 
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220915140322.png" alt="image-20220915140321746" style="zoom:67%;" />
