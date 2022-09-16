@@ -211,3 +211,48 @@ if __name__ == '__main__':
     main()
 ```
 
+
+
+## Week3
+
+* 词法分析器的任务
+  * 从字符流到记号流： 编码所识别的词法单元
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220916101643889.png" alt="image-20220916101643889" style="zoom:67%;" />
+
+* 词法分析器的实现
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220916102505603.png" alt="image-20220916102505603" style="zoom:67%;" />
+
+
+
+* 标志符
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220916103755866.png" alt="image-20220916103755866" style="zoom:67%;" />
+
+
+
+* 关键字
+
+![image-20220916103824306](https://gitee.com/lynbz1018/image/raw/master/img/20220916103825.png)
+
+#### 实验内容
+
+```bash
+gcc -E hello.c -o hello.i  // 预处理
+gcc -S hello.i -o hello.s  // 编译
+gcc -C hello.s -o hello.o  // 汇编
+gcc hello.o -o hello
+
+gcc hello.c -o hello  // 一步到位
+
+gcc hello.c -O2 hello2  // 进行二级优化
+```
+
+
+
+![image-20220916112527340](https://gitee.com/lynbz1018/image/raw/master/img/20220916112528.png)
+
+`-O2` 进行二级优化
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220916112559066.png" alt="image-20220916112559066" style="zoom:67%;" />
