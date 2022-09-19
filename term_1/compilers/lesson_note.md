@@ -1,4 +1,4 @@
-## Compilers
+##  Compilers
 
 
 
@@ -242,19 +242,67 @@
 
 ##### 符号串的运算
 
-
+###### 闭包
 
 ![image-20220905134632685](https://gitee.com/lynbz1018/image/raw/master/img/20220905134633.png)
 
 
 
+
+
 #### 2.3文法和语言的形式定义
 
-BNF范式是一种元语言，用来描述其它语言。
+语言的描述可以是**生成**或**识别**方式
 
+**生成**：BNF范式是一种元语言，用来描述其它语言。
 
+大写字母A B ... 为非终结符
+
+{}  可重复
+
+[] 可选项
 
 ![image-20220905140949034](https://gitee.com/lynbz1018/image/raw/master/img/20220905140950.png)
 
+**识别**的方式描述语言
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220919120605.png" alt="image-20220919120604532" style="zoom:67%;" />
+
+##### 文法定义
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220919121220.png" alt="image-20220919121219500" style="zoom:80%;" />
+
+##### 推导定义
+
+有一个文法，存在一对属于V*的任意符号，使得v和w在串头和串尾加上那一对符号后分别等于那个文法
+
+则说w是v的直接推到
+
+![image-20220919121823646](https://gitee.com/lynbz1018/image/raw/master/img/20220919121824.png)
+
+* <u>直接推到</u>  *+至少一步推到* ***0步或至少一步推到**
+
+![image-20220919123119778](C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220919123119778.png)
+
+**例子**
+
+```markdown
+Vn = {A, B};  // 定义大写字母是非终结符 Vt = {a, b}; S = A;
+B->a 推导出 Bb => ab
+```
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220919122540426.png" alt="image-20220919122540426" style="zoom:50%;" />
 
 
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220919124411.png" alt="image-20220919124410070" style="zoom:67%;" />
+
+##### 句型 句子 语言
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220919130517.png" alt="image-20220919130515978" style="zoom:80%;" />
+
+当一个语言是无穷的时候一定是**递归**实现的
+
+如果一个语言可以有两种文法表示，则这两个文法称为**等价文法**
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220919140531284.png" alt="image-20220919140531284" style="zoom:67%;" />
