@@ -139,3 +139,21 @@
 * 符号链接文件
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220915113727028.png" alt="image-20220915113727028" style="zoom:50%;" />
+
+
+
+## Week4
+
+`2022/9/19`
+
+#### 简单命令
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220919160024011.png" alt="image-20220919160024011" style="zoom:80%;" />
+
+
+
+```markdown
+su liuyunuo
+su - liuyunuo  // - 会改变环境变量
+```
+
