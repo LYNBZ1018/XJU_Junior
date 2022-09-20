@@ -109,3 +109,25 @@
 * 马克思主义的真谛
 
 ![image-20220913173133567](https://gitee.com/lynbz1018/image/raw/master/img/20220913173134.png)
+
+
+
+## Week4
+
+`2022/9/20`
+
+* 中国梦
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220920181527.png" alt="image-20220920181526648" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220920190854155.png" alt="image-20220920190854155" style="zoom: 67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220920191808.png" alt="image-20220920191807558" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220920194153.png" alt="image-20220920194152194" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220920194441509.png" alt="image-20220920194441509" style="zoom:67%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220920194612383.png" alt="image-20220920194612383" style="zoom:50%;" />
