@@ -75,3 +75,34 @@
 ### 3算法基本工具和优化技巧
 
 ![image-20220914110035452](https://gitee.com/lynbz1018/image/raw/master/img/20220914110036.png)
+
+
+
+## Week4
+
+`2022/9/21`
+
+```markdown
+1 1
+2 1 + 1
+3 1 + 2
+4 1 + 3
+```
+
+### 汉诺塔问题
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921103651005.png" alt="image-20220921103651005" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220921103731.png" alt="image-20220921103730223" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220921103737.png" alt="image-20220921103736726" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921103740479.png" alt="image-20220921103740479" style="zoom:50%;" />
+
+### 整数划分
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921104354431.png" alt="image-20220921104354431" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921104542841.png" alt="image-20220921104542841" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921104445341.png" alt="image-20220921104445341" style="zoom:50%;" />
