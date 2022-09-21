@@ -272,6 +272,70 @@
 
 ##### 规格化
 
+* 保证浮点数表示的唯一性
+* 位数0.5 < X < 1 二进制的是0.1
+
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914141355.png" alt="image-20220914141354045" style="zoom:50%;" />
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20220914141446.png" alt="image-20220914141444912" style="zoom:50%;" />
+
+* 看**符号位和数值位异或是1** 则是规格化的
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921121258704.png" alt="image-20220921121258704" style="zoom: 67%;" />
+
+##### 表示范围
+
+计算机表示的数都是**有限的**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220921122010.png" alt="image-20220921122009688" style="zoom:67%;" />
+
+###### 例题
+
+最大正数和最小负数都是对应的
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921123511861.png" alt="image-20220921123511861" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921131316951.png" alt="image-20220921131316951" style="zoom:50%;" />
+
+* 溢出问题
+
+![image-20220921124351190](https://gitee.com/lynbz1018/image/raw/master/img/20220921124352.png)
+
+##### 数据格式 IEEE754
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220921125722.png" alt="image-20220921125721509" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921125858583.png" alt="image-20220921125858583" style="zoom:50%;" />
+
+**指数真值要加127变成阶码E**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220921125502.png" alt="image-20220921125500947" style="zoom:67%;" />
+
+###### 例题
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921130358282.png" alt="image-20220921130358282" style="zoom: 67%;" />
+
+#### 5.定点数的加减运算
+
+##### 补码加法 | 减法
+
+* `[x]补 + [y]补 = [x + y]补`补码的加法 == 加后的补码
+
+* 符号位参与运算
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921135558888.png" alt="image-20220921135558888" style="zoom:67%;" />
+
+##### 溢出问题
+
+* 两个正数加，变负数
+* 两个负数加，变正数
+
+
+
+* 双符号位检测
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921141009570.png" alt="image-20220921141009570" style="zoom:50%;" />
+
+* 单符号位检测
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220921141302.png" alt="image-20220921141301077" style="zoom:50%;" />
