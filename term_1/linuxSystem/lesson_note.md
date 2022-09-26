@@ -157,3 +157,47 @@ su liuyunuo
 su - liuyunuo  // - 会改变环境变量
 ```
 
+
+
+## Week5
+
+`2022/9/26`
+
+#### 常用命令
+
+![image-20220926155132798](https://gitee.com/lynbz1018/image/raw/master/img/20220926155134.png)
+
+##### **cat**
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926162345343.png" alt="image-20220926162345343" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926162631798.png" alt="image-20220926162631798" style="zoom:50%;" />
+
+
+
+```bash
+cat > tmp.txt
+hello world!
+nihao
+what's up.
+#ctrl + d 结束
+
+cat test.txt tmp.txt > fusion.txt
+```
+
+##### **more**
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926164814590.png" alt="image-20220926164814590" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926164832182.png" alt="image-20220926164832182" style="zoom: 50%;" />
+
+```bash
+ls -a -l /etc/ | more -d 5
+# -5 一屏幕显示5行 -d 更多提示信息
+```
+
+
+
+##### cp
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926165107006.png" alt="image-20220926165107006" style="zoom:50%;" />
