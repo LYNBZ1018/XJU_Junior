@@ -256,7 +256,7 @@
 
 **生成**：BNF范式是一种元语言，用来描述其它语言。
 
-大写字母A B ... 为非终结符
+**大写字母A B ... 为非终结符**
 
 {}  可重复
 
@@ -280,7 +280,7 @@
 
 ![image-20220919121823646](https://gitee.com/lynbz1018/image/raw/master/img/20220919121824.png)
 
-* <u>直接推到</u>  *+至少一步推到* ***0步或至少一步推到**
+* <u>直接推到</u>  *+: 至少一步推到*     ***: 0步或至少一步推到**
 
 ![image-20220919123119778](C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220919123119778.png)
 
@@ -306,3 +306,47 @@ B->a 推导出 Bb => ab
 如果一个语言可以有两种文法表示，则这两个文法称为**等价文法**
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220919140531284.png" alt="image-20220919140531284" style="zoom:67%;" />
+
+
+
+#### 2.4文法和语言的分类
+
+* 0型文法，没有要求
+* 1型文法，要求右边串长**大于等于**左边
+
+* 2型文法，<u>左部只有一个非终结符</u> `所有的大写字符 A B C ... 都是非终结符`
+
+* 3型文法，右部没有非终结符，有的话就只有一个终结符B，在右边为右线性
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220926120451.png" alt="image-20220926120449831" style="zoom: 67%;" />
+
+
+
+#### 2.5上下文无关文法及其语法树
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926123511911.png" alt="image-20220926123511911" style="zoom:67%;" />
+
+![image-20220926125123247](https://gitee.com/lynbz1018/image/raw/master/img/20220926125124.png)
+
+**语法树**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220926125533.png" alt="image-20220926125532003" style="zoom:80%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926125602949.png" alt="image-20220926125602949" style="zoom:80%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220926130317.png" alt="image-20220926130316141" style="zoom:80%;" />
+
+##### 必考题 例题
+
+![image-20220926132559539](https://gitee.com/lynbz1018/image/raw/master/img/20220926132600.png)
+
+**注意括号也要写**
+
+![image-20220926140046355](https://gitee.com/lynbz1018/image/raw/master/img/20220926140047.png)
+
+##### 文法二义性
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926140400764.png" alt="image-20220926140400764" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926141118410.png" alt="image-20220926141118410" style="zoom:80%;" />
+
