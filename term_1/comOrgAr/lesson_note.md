@@ -315,13 +315,20 @@
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921130358282.png" alt="image-20220921130358282" style="zoom: 67%;" />
 
+###### 浮点数溢出计算
+
+![image-20220928121203839](https://gitee.com/lynbz1018/image/raw/master/img/20220928121205.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220928122408.png" alt="image-20220928122407389" style="zoom:80%;" />
+
 #### 5.定点数的加减运算
 
 ##### 补码加法 | 减法
 
 * `[x]补 + [y]补 = [x + y]补`补码的加法 == 加后的补码
-
 * 符号位参与运算
+
+###### -X补码计算
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921135558888.png" alt="image-20220921135558888" style="zoom:67%;" />
 
@@ -339,3 +346,71 @@
 * 单符号位检测
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20220921141302.png" alt="image-20220921141301077" style="zoom:50%;" />
+
+#### 6.机器数的移位运算
+
+
+
+![image-20220928123205152](https://gitee.com/lynbz1018/image/raw/master/img/20220928123206.png)
+
+用处：
+
+`x = -101 1001； 求x/2的补码，就是求x的补码右移一位`
+
+![image-20220928123124583](https://gitee.com/lynbz1018/image/raw/master/img/20220928123125.png)
+
+**例题**
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928125049492.png" alt="image-20220928125049492" style="zoom:67%;" />
+
+
+
+#### 7.加法器
+
+![image-20220928130731356](https://gitee.com/lynbz1018/image/raw/master/img/20220928130732.png)
+
+##### **超前进位加法器**
+
+可以并行计算
+
+![image-20220928131453956](https://gitee.com/lynbz1018/image/raw/master/img/20220928131455.png)
+
+c1是由 A0 B0 C0计算得来
+
+计算速度很快
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928131623274.png" alt="image-20220928131623274" style="zoom:80%;" />
+
+
+
+### 2.3定点乘法运算
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928133931284.png" alt="image-20220928133931284" style="zoom:67%;" />
+
+**阵列乘法器**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220928134251.png" alt="image-20220928134250608" style="zoom:67%;" />
+
+**带符号的阵列乘法器**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220928135157.png" alt="image-20220928135156268" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928135345281.png" alt="image-20220928135345281" style="zoom:67%;" />
+
+**例题**
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928135904476.png" alt="image-20220928135904476" style="zoom:67%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220928135830.png" alt="image-20220928135829140" style="zoom:67%;" />
+
+
+
+### 2.4定点除法运算
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928140527896.png" alt="image-20220928140527896" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928140548305.png" alt="image-20220928140548305" style="zoom:80%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220928141321.png" alt="image-20220928141320313" style="zoom:67%;" />
