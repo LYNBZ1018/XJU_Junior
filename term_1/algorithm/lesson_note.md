@@ -106,3 +106,51 @@
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921104542841.png" alt="image-20220921104542841" style="zoom:50%;" />
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220921104445341.png" alt="image-20220921104445341" style="zoom:50%;" />
+
+## Week5
+
+`2022/9/28`
+
+### 算法发与数据结构
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928100435682.png" alt="image-20220928100435682" style="zoom:80%;" />
+
+#### 选举候选人
+
+![image-20220928103906132](https://gitee.com/lynbz1018/image/raw/master/img/20220928103907.png)
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928103913414.png" alt="image-20220928103913414" style="zoom:67%;" />
+
+#### 分段统计身高
+
+![image-20220928103936899](https://gitee.com/lynbz1018/image/raw/master/img/20220928103938.png)
+
+   
+
+ **例题**
+
+![image-20220928113643840](https://gitee.com/lynbz1018/image/raw/master/img/20220928113645.png)
+
+  
+
+**例题**
+
+![image-20220928113626876](https://gitee.com/lynbz1018/image/raw/master/img/20220928113628.png)
+
+  
+
+**例题**
+
+![image-20220928113520124](https://gitee.com/lynbz1018/image/raw/master/img/20220928113521.png)
+
+![image-20220928113534376](https://gitee.com/lynbz1018/image/raw/master/img/20220928113535.png)
+
+
+
+**例题**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220928113436.png" alt="image-20220928113410995" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20220928113421.png" alt="image-20220928113419903" style="zoom:80%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928113558550.png" alt="image-20220928113558550" style="zoom:80%;" />
