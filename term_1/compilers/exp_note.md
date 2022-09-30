@@ -236,7 +236,7 @@ if __name__ == '__main__':
 
 ![image-20220916103824306](https://gitee.com/lynbz1018/image/raw/master/img/20220916103825.png)
 
-#### 实验内容
+### 实验内容
 
 ```bash
 gcc -E hello.c -o hello.i  // 预处理
@@ -256,3 +256,154 @@ gcc hello.c -O2 hello2  // 进行二级优化
 `-O2` 进行二级优化
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220916112559066.png" alt="image-20220916112559066" style="zoom:67%;" />
+
+
+
+
+
+## Week5
+
+`2022/9/30`
+
+![image-20220930101907655](https://gitee.com/lynbz1018/image/raw/master/img/20220930101908.png)
+
+### 实验内容
+
+![image-20220930102452093](https://gitee.com/lynbz1018/image/raw/master/img/20220930102453.png)
+
+![image-20220930103855742](https://gitee.com/lynbz1018/image/raw/master/img/20220930103856.png)
+
+### Code
+
+```c++
+#include <cstring>
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <map>
+#include <fstream>
+
+using namespace std;
+
+map<string, string> keywords = {{"begin", "beginsym"}, {"end", "endsym"}, {"input", "inputsym"}, {"output", "outputsym"}, 
+{"if", "ifsym"}, {"then", "thensym"}, {"else", "elsesym"}, {"elif", "elifsym"}, {"do", "dosym"}, {"while", "whilesym"}, 
+{"break", "breaksym"}, {"var", "varsym"}, {"and", "andsym"}, {"or", "orsym"}, {"not", "notsym"}, {"true", "truesym"}, 
+{"false", "falsesym"}};
+
+map<char, string> other = {{'%', "mod"}, {'+', "plus"}, {'-', "minus"}, {'*', "times"}, {'/', "divide"}, {'(', "lparen"}, 
+{')', "rparen"}, {'[', "lbracket"}, {']', "rbracket"}, {'{', "lcurbkt"}, {'}', "rcurbkt"}, {',', "comma"}, {'.', "period"}};
+
+void print_letter(string str);
+
+int main()
+{
+	// 文件读取
+	string filename;
+	string strline;
+	int idx = 0;  // 防止在逐行读取时 while无线循环
+	
+	cout << "请输入要进行词法分析的文件名称:" << endl;
+	cin >> filename;
+	ifstream fin(filename.c_str());
+	while (getline(fin, strline) && idx < 200)
+	{
+		int n = strline.size();
+		for (int i = 0; i < n; i ++ )
+		{
+			if (strline[i] == ' ' && i < n) continue;  // 如果是空格就跳过
+			else if (isdigit(strline[i]))  // 如果是常数
+			{
+				string str;
+				while (isdigit(strline[i]))
+					str += strline[i ++ ];
+				
+				cout << "( digit, " << str << " )" << endl;
+				i -- ;
+			}
+			else if (isalpha(strline[i]))  // 如果是关键字 或 标志符
+			{
+				string str;
+				str += strline[i ++ ];
+				while(isdigit(strline[i]) || isalpha(strline[i]))
+					str += strline[i ++];
+				i -- ;
+				print_letter(str);  // 在函数里判断是关键字还是标志服
+			}
+			else  // 算符 和 界符判断
+			{
+				switch(strline[i])
+				{
+					case '<':
+						i ++ ;
+						if (strline[i] == '=')
+							cout << "( leq, <= )" << endl;
+						else
+						{
+							i -- ;
+							cout << "( lss, < )" << endl;
+						}
+						break;
+						
+					case '=':
+						i ++ ;
+						if (strline[i] == '=')
+							cout << "( eql, == )" << endl;
+						else
+						{
+							i --;
+							cout << "( becomes, = )" << endl;
+						}
+						break;
+					
+					case '>':
+						i ++ ;
+						if (strline[i] == '=')
+							cout << "( geq, >= )" << endl;
+						else
+						{
+							i -- ;
+							cout << "( gtr, > )" << endl;
+						}
+						break;
+					
+					case '!':
+						i ++ ;
+						if (strline[i] == '=')
+							cout << "( neq, != )" << endl;
+						else 
+						{
+							i -- ;
+							cout << "error" << endl;
+						}
+						break;
+					
+					default:
+						char ch = strline[i];
+						map<char, string>::iterator iter = other.find(ch);
+						cout << "( " << iter->second << ", " << iter->first << " )" << endl;
+						break;
+				}
+			}
+		}
+		idx ++ ;
+	}
+	
+	// 关闭文件
+	fin.close();
+	cout << "完成词法分析!" << endl;
+	
+	return 0;
+}
+
+void print_letter(string str)
+{
+	map<string, string>::iterator iter, none = keywords.end();
+	iter = keywords.find(str);
+	if (iter != none)
+	{
+		cout << "( " << iter->second << ", " << iter->first << " )" << endl;
+	}
+	else cout << "( ident, " << str << " )" << endl;
+}
+```
+
