@@ -131,3 +131,41 @@
 
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220920194612383.png" alt="image-20220920194612383" style="zoom:50%;" />
+
+
+
+## Week6
+
+`2022/10/4`
+
+![image-20221004172733311](https://gitee.com/lynbz1018/image/raw/master/img/20221004172734.png)
+
+
+
+![image-20221004181738707](https://gitee.com/lynbz1018/image/raw/master/img/20221004181739.png)
+
+![image-20221004181746165](https://gitee.com/lynbz1018/image/raw/master/img/20221004181747.png)
+
+![image-20221004181731447](https://gitee.com/lynbz1018/image/raw/master/img/20221004181732.png)
+
+![image-20221004181958188](https://gitee.com/lynbz1018/image/raw/master/img/20221004181959.png)
+
+![image-20221004184843687](https://gitee.com/lynbz1018/image/raw/master/img/20221004184844.png)
+
+![image-20221004190856366](https://gitee.com/lynbz1018/image/raw/master/img/20221004190857.png)
+
+![image-20221004190904438](https://gitee.com/lynbz1018/image/raw/master/img/20221004190905.png)
+
+![image-20221004190921948](https://gitee.com/lynbz1018/image/raw/master/img/20221004190923.png)
+
+![image-20221004191324228](https://gitee.com/lynbz1018/image/raw/master/img/20221004191325.png)
+
+![image-20221004191530528](https://gitee.com/lynbz1018/image/raw/master/img/20221004191531.png)
+
+![image-20221004192108940](https://gitee.com/lynbz1018/image/raw/master/img/20221004192110.png)
+
+![image-20221004192930850](https://gitee.com/lynbz1018/image/raw/master/img/20221004192932.png)
+
+![image-20221004194154010](https://gitee.com/lynbz1018/image/raw/master/img/20221004194155.png)
+
+![image-20221004194425446](https://gitee.com/lynbz1018/image/raw/master/img/20221004194426.png)
