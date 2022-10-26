@@ -407,3 +407,16 @@ void print_letter(string str)
 }
 ```
 
+
+
+## Week7
+
+`2022/10/14`
+
+
+
+![image-20221014105811996](https://gitee.com/lynbz1018/image/raw/master/img/20221014105813.png)
+
+
+
+![image-20221014105802621](C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221014105802621.png)

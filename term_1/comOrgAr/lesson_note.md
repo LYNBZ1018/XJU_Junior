@@ -347,9 +347,29 @@
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20220921141302.png" alt="image-20220921141301077" style="zoom:50%;" />
 
+#### +-浮点数加减
+
+![image-20221004123213865](https://gitee.com/lynbz1018/image/raw/master/img/20221004123215.png)
+
+![image-20221004123328050](https://gitee.com/lynbz1018/image/raw/master/img/20221004123329.png)
+
+![image-20221004123940581](https://gitee.com/lynbz1018/image/raw/master/img/20221004123941.png)
+
+##### 例题
+
+![image-20221005132253297](https://gitee.com/lynbz1018/image/raw/master/img/20221005132255.png)
+
+![image-20221005132313489](https://gitee.com/lynbz1018/image/raw/master/img/20221005132315.png)
+
+
+
+##### */浮点数乘除
+
+![image-20221005135436755](https://gitee.com/lynbz1018/image/raw/master/img/20221005135437.png)
+
+
+
 #### 6.机器数的移位运算
-
-
 
 ![image-20220928123205152](https://gitee.com/lynbz1018/image/raw/master/img/20220928123206.png)
 
@@ -414,3 +434,187 @@ c1是由 A0 B0 C0计算得来
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220928140548305.png" alt="image-20220928140548305" style="zoom:80%;" />
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20220928141321.png" alt="image-20220928141320313" style="zoom:67%;" />
+
+### 2.5逻辑运算
+
+`数据线一般是双向的，地址线是单向的`
+
+![image-20221005121958029](https://gitee.com/lynbz1018/image/raw/master/img/20221005121959.png)
+
+![image-20221005122903967](https://gitee.com/lynbz1018/image/raw/master/img/20221005122905.png)
+
+![image-20221005124443158](https://gitee.com/lynbz1018/image/raw/master/img/20221005124444.png)
+
+
+
+![image-20221005125706750](https://gitee.com/lynbz1018/image/raw/master/img/20221005125708.png)
+
+![image-20221005130229591](https://gitee.com/lynbz1018/image/raw/master/img/20221005130231.png)
+
+
+
+### 2.6流水线
+
+![image-20221005140205690](https://gitee.com/lynbz1018/image/raw/master/img/20221005140206.png)
+
+![image-20221005140217664](https://gitee.com/lynbz1018/image/raw/master/img/20221005140218.png)
+
+
+
+## 第三章
+
+![image-20221019134726261](https://gitee.com/lynbz1018/image/raw/master/img/20221019134727.png)
+
+![image-20221019140640827](https://gitee.com/lynbz1018/image/raw/master/img/20221019140642.png)
+
+![image-20221019140703276](https://gitee.com/lynbz1018/image/raw/master/img/20221019140704.png)
+
+![image-20221019140852896](https://gitee.com/lynbz1018/image/raw/master/img/20221019140854.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 第四章、指令系统
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221012114350.png" alt="image-20221012114349394" style="zoom:80%;" />
+
+### **指令系统**
+
+![image-20221012120857781](https://gitee.com/lynbz1018/image/raw/master/img/20221012120858.png)
+
+![image-20221012121213558](https://gitee.com/lynbz1018/image/raw/master/img/20221012121214.png)
+
+
+
+![image-20221012121547932](https://gitee.com/lynbz1018/image/raw/master/img/20221012121549.png)
+
+
+
+### 指令格式
+
+地址码可以指出参与操作的操作数的地址，也可以指出下一条指令的地址
+
+![image-20221012123132467](https://gitee.com/lynbz1018/image/raw/master/img/20221012123133.png)
+
+
+
+三地址指令
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221012123358322.png" alt="image-20221012123358322" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221012124441.png" alt="image-20221012124440766" style="zoom:80%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221012124934.png" alt="image-20221012124933401" style="zoom: 67%;" />
+
+
+
+顺序类的指令，在寄存器的下一个
+
+跳转类的指令，在操作码上指出了下一个指令的位置
+
+![image-20221012130600737](https://gitee.com/lynbz1018/image/raw/master/img/20221012130601.png)
+
+#### 指令长度
+
+![image-20221012130832736](https://gitee.com/lynbz1018/image/raw/master/img/20221012130833.png)
+
+![image-20221012131028859](https://gitee.com/lynbz1018/image/raw/master/img/20221012131029.png)
+
+
+
+##### **例题**
+
+###### 固定格式
+
+![image-20221012131443683](https://gitee.com/lynbz1018/image/raw/master/img/20221012131444.png)
+
+###### 可变格式
+
+使用频率搞得使用操作码短的
+
+使用频率低的使用操作码长的
+
+![image-20221012131739059](https://gitee.com/lynbz1018/image/raw/master/img/20221012131740.png)
+
+![image-20221012133236835](https://gitee.com/lynbz1018/image/raw/master/img/20221012133237.png)
+
+![image-20221012134002128](https://gitee.com/lynbz1018/image/raw/master/img/20221012134003.png)
+
+
+
+#### 操作数寻址
+
+![image-20221012134351679](https://gitee.com/lynbz1018/image/raw/master/img/20221012134352.png)
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221012134504548.png" alt="image-20221012134504548" style="zoom:67%;" />
+
+![image-20221012134851804](https://gitee.com/lynbz1018/image/raw/master/img/20221012134852.png)
+
+解决操作数位数限制寻址范围的问题，但是效率会很慢
+
+![image-20221012135453835](https://gitee.com/lynbz1018/image/raw/master/img/20221012135454.png)
+
+![image-20221012135619876](https://gitee.com/lynbz1018/image/raw/master/img/20221012135621.png)
+
+![image-20221012135840411](https://gitee.com/lynbz1018/image/raw/master/img/20221012135841.png)
+
+![image-20221012140547923](https://gitee.com/lynbz1018/image/raw/master/img/20221012140549.png)
+
+![image-20221012141029327](https://gitee.com/lynbz1018/image/raw/master/img/20221012141030.png)
+
+![image-20221012141246629](https://gitee.com/lynbz1018/image/raw/master/img/20221012141247.png)
+
+##### 寻址方式例子
+
+MOV 单字长 R-R 源目可以使用16个通用寄存器
+
+STO 单字长 R-S 源使用16个GR 目标（基址+变址 需要计算完地址再存）
+
+LAD 双字长(16机器区两次) R-S  
+
+### 
+
+![image-20221019124546813](https://gitee.com/lynbz1018/image/raw/master/img/20221019124548.png)
+
+![image-20221019124554763](https://gitee.com/lynbz1018/image/raw/master/img/20221019124556.png)
+
+![image-20221019125548167](https://gitee.com/lynbz1018/image/raw/master/img/20221019125549.png)
+
+![image-20221019130546610](https://gitee.com/lynbz1018/image/raw/master/img/20221019130547.png)
+
+![image-20221019130842358](https://gitee.com/lynbz1018/image/raw/master/img/20221019130843.png)
+
+
+
+### 典型指令集
+
+![image-20221019131524298](https://gitee.com/lynbz1018/image/raw/master/img/20221019131525.png)
+
+
+
+**CRSC 28定**律：CISC中只有个20%的常用指令占据处理机的80%的时间
+
+![image-20221019132619032](https://gitee.com/lynbz1018/image/raw/master/img/20221019132620.png)
+
+![image-20221019133913964](https://gitee.com/lynbz1018/image/raw/master/img/20221019133915.png)

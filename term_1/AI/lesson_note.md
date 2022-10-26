@@ -81,15 +81,67 @@
 
 
 
+![image-20221006130535363](https://gitee.com/lynbz1018/image/raw/master/img/20221006130536.png)
 
+![image-20221006131149867](https://gitee.com/lynbz1018/image/raw/master/img/20221006131151.png)
 
+![image-20221006131243567](https://gitee.com/lynbz1018/image/raw/master/img/20221006131244.png)
 
-
-
-
-
+![image-20221006141029748](https://gitee.com/lynbz1018/image/raw/master/img/20221006141030.png)
 
 ****
+
+
+
+
+
+## 第四章、不确定性推理方法
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221013125208.png" alt="image-20221013125206964" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221013130336.png" alt="image-20221013130335810" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221013133904.png" alt="image-20221013133903564" style="zoom: 50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221013133739907.png" alt="image-20221013133739907" style="zoom: 50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221013133757154.png" alt="image-20221013133757154" style="zoom:50%;" />
+
+**例题**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221013132436.png" alt="image-20221013132435564" style="zoom:67%;" />
+
+![image-20221013132530556](https://gitee.com/lynbz1018/image/raw/master/img/20221013132531.png)
+
+
+
+
+
+![image-20221013135125292](https://gitee.com/lynbz1018/image/raw/master/img/20221013135126.png)
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221013141024870.png" alt="image-20221013141024870" style="zoom:50%;" />
+
+![image-20221013140453148](https://gitee.com/lynbz1018/image/raw/master/img/20221013140454.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221013141430.png" alt="image-20221013141429706" style="zoom:50%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221013141436.png" alt="image-20221013141435502" style="zoom:50%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221020131159.png" alt="image-20221020131158072" style="zoom:67%;" />
+
+### 模糊关系
+
+![image-20221020131447719](https://gitee.com/lynbz1018/image/raw/master/img/20221020131448.png)
+
+**交取小值**
+
+![image-20221020132550618](https://gitee.com/lynbz1018/image/raw/master/img/20221020132551.png)
+
+
 
 ## 课堂习题
 
@@ -126,6 +178,12 @@
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220929135300772.png" alt="image-20220929135300772" style="zoom:67%;" />
 
+9. 
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221013140137195.png" alt="image-20221013140137195" style="zoom:67%;" />
+
+
+
 ## 作业
 
 1. 
@@ -137,3 +195,6 @@
 
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220922141335710.png" alt="image-20220922141335710" style="zoom: 80%;" />
+
+![image-20221006141558872](https://gitee.com/lynbz1018/image/raw/master/img/20221006141600.png)
+

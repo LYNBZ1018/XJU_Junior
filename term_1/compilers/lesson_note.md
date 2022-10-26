@@ -28,7 +28,7 @@
 
 `2022/8/29`
 
-### 一、引论
+## 一、引论
 
 #### 1.1翻译程序 定义
 
@@ -191,7 +191,7 @@
 
 `2022/9/5`
 
-### 二、文法和语言
+## 二、文法和语言
 
 
 
@@ -334,6 +334,8 @@ B->a 推导出 Bb => ab
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926125602949.png" alt="image-20220926125602949" style="zoom:80%;" />
 
+短语 - 简单短语 - 句柄
+
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20220926130317.png" alt="image-20220926130316141" style="zoom:80%;" />
 
 ##### 必考题 例题
@@ -344,9 +346,202 @@ B->a 推导出 Bb => ab
 
 ![image-20220926140046355](https://gitee.com/lynbz1018/image/raw/master/img/20220926140047.png)
 
+
+
 ##### 文法二义性
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926140400764.png" alt="image-20220926140400764" style="zoom:67%;" />
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220926141118410.png" alt="image-20220926141118410" style="zoom:80%;" />
 
+
+
+#### 2.6句型分析
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221010122203.png" alt="image-20221010122202354" style="zoom:67%;" />
+
+
+
+**多余规则**
+
+![image-20221010123603874](https://gitee.com/lynbz1018/image/raw/master/img/20221010123605.png)
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221010124554897.png" alt="image-20221010124554897" style="zoom:67%;" />
+
+**有害规则**
+
+![image-20221010123614897](https://gitee.com/lynbz1018/image/raw/master/img/20221010123616.png)
+
+
+
+## 三、词法分析
+
+**Week7**
+
+`2022/10/10`
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221010124809071.png" alt="image-20221010124809071" style="zoom: 50%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221010125330852.png" alt="image-20221010125330852" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221010125556333.png" alt="image-20221010125556333" style="zoom:67%;" />
+
+### 3.2单词的描述工具
+
+##### 正规式
+
+![image-20221010130205052](https://gitee.com/lynbz1018/image/raw/master/img/20221010130206.png)
+
+
+
+**例子**
+
+![image-20221010130957321](https://gitee.com/lynbz1018/image/raw/master/img/20221010130958.png)
+
+![image-20221010131119796](https://gitee.com/lynbz1018/image/raw/master/img/20221010131120.png)
+
+
+
+##### 正规文法转化成正规文法
+
+*是闭包
+
+![image-20221010131802622](https://gitee.com/lynbz1018/image/raw/master/img/20221010131803.png)
+
+
+
+正规式转化成正规文法
+
+![image-20221010135031950](https://gitee.com/lynbz1018/image/raw/master/img/20221010135033.png)
+
+### 3.3自动机
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221010135422095.png" alt="image-20221010135422095" style="zoom:50%;" />
+
+##### 有穷自动机
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221010135637682.png" alt="image-20221010135637682" style="zoom: 67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221010140437.png" alt="image-20221010140436736" style="zoom:67%;" />
+
+
+
+从起始 到终结点 路径就是字符串
+
+若一个点既是初态点又是终态点，则空串是该自动机可接受
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221010140845.png" alt="image-20221010140844781" style="zoom: 67%;" />
+
+例题
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221010141448942.png" alt="image-20221010141448942" style="zoom:67%;" />
+
+
+
+##### 不确定的有穷自动机
+
+![image-20221010141519639](https://gitee.com/lynbz1018/image/raw/master/img/20221010141520.png)
+
+
+
+注意：初态有一个**从外边的射入弧**，终态有一个**同心圆**
+
+![image-20221017120203745](https://gitee.com/lynbz1018/image/raw/master/img/20221017120204.png)
+
+
+
+
+
+##### NFA转换成等价的DFA
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221017121257.png" alt="image-20221017121256155" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221017122234193.png" alt="image-20221017122234193" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221017122357236.png" alt="image-20221017122357236" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221017123557807.png" alt="image-20221017123557807" style="zoom:67%;" />
+
+###### 例题
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221017124854389.png" alt="image-20221017124854389" style="zoom:67%;" />
+
+##### DFA的简化
+
+![image-20221017125248644](https://gitee.com/lynbz1018/image/raw/master/img/20221017125249.png)
+
+
+
+**注意：** 一个集合 经过相同符号后到达相同的转态 也可以合并为一个
+
+![image-20221017130340352](https://gitee.com/lynbz1018/image/raw/master/img/20221017130341.png)
+
+
+
+##### 必考题 例题
+
+![image-20221017133827031](https://gitee.com/lynbz1018/image/raw/master/img/20221017133828.png)
+
+##### 正规式和有穷自动机的转换
+
+<u>如果正规式是闭包</u> 空弧不能任意省略掉
+
+![image-20221017140356227](https://gitee.com/lynbz1018/image/raw/master/img/20221017140357.png)
+
+![image-20221017135751392](https://gitee.com/lynbz1018/image/raw/master/img/20221017135752.png)
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221017140216502.png" alt="image-20221017140216502" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221017141650.jpg" alt="b8aa0aa34ba432d4afec6db218698df" style="zoom: 50%;" />
+
+![image-20221024123225957](https://gitee.com/lynbz1018/image/raw/master/img/20221024123227.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024123510.png" alt="image-20221024123509542" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221024123902519.png" alt="image-20221024123902519" style="zoom:67%;" />
+
+![image-20221024124758524](https://gitee.com/lynbz1018/image/raw/master/img/20221024124759.png)
+
+![image-20221024124942452](https://gitee.com/lynbz1018/image/raw/master/img/20221024124943.png)
+
+
+
+
+
+## 四、语法分析
+
+![image-20221024125540323](https://gitee.com/lynbz1018/image/raw/master/img/20221024125541.png)
+
+### LL(1)文法
+
+![image-20221024130518069](https://gitee.com/lynbz1018/image/raw/master/img/20221024130519.png)
+
+##### FIRST集合
+
+![image-20221024132109236](https://gitee.com/lynbz1018/image/raw/master/img/20221024132110.png)
+
+
+
+###### 例题
+
+可以推到出空 - 就FIRST去空  -- 都能推导出来空就并上一个空
+
+不能推导出空 - 就写一个不写后边的
+
+![image-20221024134021492](https://gitee.com/lynbz1018/image/raw/master/img/20221024134023.png)
+
+
+
+##### FOLLOW集合
+
+![image-20221024140616133](https://gitee.com/lynbz1018/image/raw/master/img/20221024140617.png)
+
+![image-20221024140917192](https://gitee.com/lynbz1018/image/raw/master/img/20221024140918.png)
+
+###### 例题
+
+![image-20221024141423288](https://gitee.com/lynbz1018/image/raw/master/img/20221024141424.png)

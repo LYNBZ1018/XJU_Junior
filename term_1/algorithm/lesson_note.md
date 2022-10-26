@@ -204,3 +204,87 @@
 #### 魔方阵
 
 ![image-20221005113639996](https://gitee.com/lynbz1018/image/raw/master/img/20221005113641.png)
+
+
+
+## Week7
+
+`2022/10/12`
+
+### 算法优化基本技巧
+
+![image-20221012113903728](https://gitee.com/lynbz1018/image/raw/master/img/20221012114254.png)
+
+![image-20221012113916863](https://gitee.com/lynbz1018/image/raw/master/img/20221012113918.png)
+
+![image-20221012113927368](https://gitee.com/lynbz1018/image/raw/master/img/20221012113928.png)
+
+## Week8
+
+### 迭代算法
+
+#### 兔子繁殖
+
+![image-20221019102437335](https://gitee.com/lynbz1018/image/raw/master/img/20221019102438.png)
+
+**改进**
+
+![image-20221019102457105](https://gitee.com/lynbz1018/image/raw/master/img/20221019102458.png)
+
+#### 最大公约数
+
+![image-20221019103044861](https://gitee.com/lynbz1018/image/raw/master/img/20221019103046.png)
+
+```python
+def gcd(a, b):
+    if a % b == 0:
+        return b
+    else:
+        return gcd(b, a % b)
+```
+
+
+
+#### 杨辉三角
+
+![image-20221019110057760](https://gitee.com/lynbz1018/image/raw/master/img/20221019110059.png)
+
+![image-20221019110044436](https://gitee.com/lynbz1018/image/raw/master/img/20221019110045.png)
+
+#### 吉普穿沙漠
+
+![image-20221019112924766](https://gitee.com/lynbz1018/image/raw/master/img/20221019112926.png)
+
+![image-20221019112936018](https://gitee.com/lynbz1018/image/raw/master/img/20221019112937.png)
+
+![image-20221019112946896](https://gitee.com/lynbz1018/image/raw/master/img/20221019112948.png)
+
+
+
+## Week9
+
+`2022/10/26`
+
+#### 牛顿迭代法
+
+![image-20221026102757113](https://gitee.com/lynbz1018/image/raw/master/img/20221026102830.png)
+
+![image-20221026102817599](https://gitee.com/lynbz1018/image/raw/master/img/20221026102818.png)
+
+![image-20221026102822530](https://gitee.com/lynbz1018/image/raw/master/img/20221026102823.png)
+
+#### 狱吏问题
+
+![image-20221026113931489](https://gitee.com/lynbz1018/image/raw/master/img/20221026113932.png)
+
+![image-20221026113944864](https://gitee.com/lynbz1018/image/raw/master/img/20221026113946.png)
+
+![image-20221026113951777](https://gitee.com/lynbz1018/image/raw/master/img/20221026113953.png)
+
+![image-20221026114038259](https://gitee.com/lynbz1018/image/raw/master/img/20221026114039.png)
+
+![image-20221026114000196](https://gitee.com/lynbz1018/image/raw/master/img/20221026114001.png)
+
+![image-20221026114007118](https://gitee.com/lynbz1018/image/raw/master/img/20221026114008.png)
+
+![image-20221026114016148](https://gitee.com/lynbz1018/image/raw/master/img/20221026114017.png)
