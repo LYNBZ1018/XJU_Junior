@@ -473,25 +473,77 @@ c1是由 A0 B0 C0计算得来
 
 
 
+存储周期：一次读写到下一次读写开始的时间，两次读写之间可能有等待间隔
+
+主存连接在总线上可以被CPU直接访问，有RAM 和 ROM，大部分是RAM
+
+外存不能直接被CPU访问
 
 
 
+### 主存
+
+覆盖式的写，非破坏性的读
+
+只有写的时候会修改数据
+
+![image-20221026121211965](https://gitee.com/lynbz1018/image/raw/master/img/20221026121213.png)
 
 
 
+![image-20221026122704704](https://gitee.com/lynbz1018/image/raw/master/img/20221026122705.png)
 
 
 
+![image-20221026123104110](https://gitee.com/lynbz1018/image/raw/master/img/20221026123105.png)
+
+![image-20221026123316858](https://gitee.com/lynbz1018/image/raw/master/img/20221026123318.png)
 
 
 
+### SRAM
+
+![image-20221026124637962](https://gitee.com/lynbz1018/image/raw/master/img/20221026124639.png)
+
+![image-20221026130532418](https://gitee.com/lynbz1018/image/raw/master/img/20221026130533.png)
+
+![image-20221026130542976](https://gitee.com/lynbz1018/image/raw/master/img/20221026130544.png)
+
+![image-20221026130612295](https://gitee.com/lynbz1018/image/raw/master/img/20221026130613.png)
 
 
 
+### DRAM
+
+价格低、需要经常刷新
+
+![image-20221026131551236](https://gitee.com/lynbz1018/image/raw/master/img/20221026131552.png)
 
 
 
+![image-20221026132050372](https://gitee.com/lynbz1018/image/raw/master/img/20221026132051.png)
 
+![image-20221026132343336](https://gitee.com/lynbz1018/image/raw/master/img/20221026132344.png)
+
+![image-20221026132527998](https://gitee.com/lynbz1018/image/raw/master/img/20221026132529.png)
+
+![image-20221026134558022](https://gitee.com/lynbz1018/image/raw/master/img/20221026134559.png)
+
+![image-20221026134517298](https://gitee.com/lynbz1018/image/raw/master/img/20221026134518.png)
+
+
+
+![image-20221026134448748](https://gitee.com/lynbz1018/image/raw/master/img/20221026134449.png)
+
+
+
+### ROM
+
+![image-20221026135811662](https://gitee.com/lynbz1018/image/raw/master/img/20221026135812.png)
+
+
+
+![image-20221026135736452](https://gitee.com/lynbz1018/image/raw/master/img/20221026135737.png)
 
 
 
