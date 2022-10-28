@@ -143,6 +143,22 @@
 
 
 
+## 第五章、搜索求解策略
+
+![image-20221027131629537](https://gitee.com/lynbz1018/image/raw/master/img/20221027131630.png)
+
+#### 状态空间法
+
+![image-20221027132941298](https://gitee.com/lynbz1018/image/raw/master/img/20221027132942.png)
+
+![image-20221027133014960](https://gitee.com/lynbz1018/image/raw/master/img/20221027133016.png)
+
+
+
+
+
+
+
 ## 课堂习题
 
 1. 人工智能的三大学派

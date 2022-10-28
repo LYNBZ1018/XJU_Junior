@@ -410,3 +410,35 @@ readlink test2.txt  # 查看链接字符
 ![image-20221024165939907](https://gitee.com/lynbz1018/image/raw/master/img/20221024165941.png)
 
 ![image-20221024165950196](https://gitee.com/lynbz1018/image/raw/master/img/20221024165951.png)
+
+
+
+
+
+### 用户功能和查询命令
+
+##### W
+
+![image-20221027112428960](https://gitee.com/lynbz1018/image/raw/master/img/20221027112431.png)
+
+##### id
+
+![image-20221027112508550](https://gitee.com/lynbz1018/image/raw/master/img/20221027112509.png)
+
+##### whoami
+
+![image-20221027112524141](https://gitee.com/lynbz1018/image/raw/master/img/20221027112525.png)
+
+##### lastlog
+
+![image-20221027112542262](https://gitee.com/lynbz1018/image/raw/master/img/20221027112543.png)
+
+##### sudo
+
+![image-20221027112617647](https://gitee.com/lynbz1018/image/raw/master/img/20221027112618.png)
+
+#### 特殊权限
+
+![image-20221027112953072](https://gitee.com/lynbz1018/image/raw/master/img/20221027112954.png)
+
+![image-20221027113018271](https://gitee.com/lynbz1018/image/raw/master/img/20221027113019.png)
