@@ -437,8 +437,44 @@ readlink test2.txt  # 查看链接字符
 
 ![image-20221027112617647](https://gitee.com/lynbz1018/image/raw/master/img/20221027112618.png)
 
+
+
+
+
 #### 特殊权限
 
 ![image-20221027112953072](https://gitee.com/lynbz1018/image/raw/master/img/20221027112954.png)
 
+
+
+**rwxrws--- 2770**
+
 ![image-20221027113018271](https://gitee.com/lynbz1018/image/raw/master/img/20221027113019.png)
+
+![image-20221031161816412](https://gitee.com/lynbz1018/image/raw/master/img/20221031161817.png)
+
+![image-20221031161836395](https://gitee.com/lynbz1018/image/raw/master/img/20221031161903.png)
+
+![image-20221031161856875](https://gitee.com/lynbz1018/image/raw/master/img/20221031161858.png)
+
+
+
+
+
+## 进程控制
+
+![image-20221031164749823](https://gitee.com/lynbz1018/image/raw/master/img/20221031164751.png)
+
+![image-20221031164759233](https://gitee.com/lynbz1018/image/raw/master/img/20221031164800.png)
+
+![image-20221031164805758](https://gitee.com/lynbz1018/image/raw/master/img/20221031164807.png)
+
+![image-20221031164812900](https://gitee.com/lynbz1018/image/raw/master/img/20221031164814.png)
+
+![image-20221031164818979](https://gitee.com/lynbz1018/image/raw/master/img/20221031164820.png)
+
+![image-20221031164825090](https://gitee.com/lynbz1018/image/raw/master/img/20221031164826.png)
+
+![image-20221031170115804](https://gitee.com/lynbz1018/image/raw/master/img/20221031170117.png)
+
+![image-20221031170123556](https://gitee.com/lynbz1018/image/raw/master/img/20221031172059.png)

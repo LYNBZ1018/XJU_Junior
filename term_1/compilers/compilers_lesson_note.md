@@ -544,4 +544,52 @@ B->a 推导出 Bb => ab
 
 ###### 例题
 
-![image-20221024141423288](https://gitee.com/lynbz1018/image/raw/master/img/20221024141424.png)
+FOLLOW(S), 看右部有哪些有S
+
+有S的右部，看S的右边，如果能推导出空就用First去空并上左边的Follow
+
+不能推到出空就是S右边的First
+
+![image-20221031122041898](https://gitee.com/lynbz1018/image/raw/master/img/20221031122129.png)
+
+![image-20221024141423288](https://gitee.com/lynbz1018/image/raw/master/img/20221031122031.jpg)
+
+
+
+##### SELECT集合
+
+![image-20221031122511313](https://gitee.com/lynbz1018/image/raw/master/img/20221031122512.png)
+
+![image-20221031122948632](https://gitee.com/lynbz1018/image/raw/master/img/20221031122949.png)
+
+###### 例题
+
+![image-20221031123653076](https://gitee.com/lynbz1018/image/raw/master/img/20221031123654.png)
+
+
+
+#### 消除左递归 提取左公因子
+
+![image-20221031132601309](https://gitee.com/lynbz1018/image/raw/master/img/20221031132602.png)
+
+![image-20221031133739121](https://gitee.com/lynbz1018/image/raw/master/img/20221031133740.png)
+
+
+
+#### 表驱动分析法
+
+![image-20221031134702339](https://gitee.com/lynbz1018/image/raw/master/img/20221031134703.png)
+
+
+
+##### 题型
+
+先进行改写 - 判别是否是LL1文法
+
+![image-20221031134940838](https://gitee.com/lynbz1018/image/raw/master/img/20221031134942.png)
+
+![image-20221031135030886](https://gitee.com/lynbz1018/image/raw/master/img/20221031135032.png)
+
+![image-20221031135132049](https://gitee.com/lynbz1018/image/raw/master/img/20221031135133.png)
+
+![image-20221031140406186](https://gitee.com/lynbz1018/image/raw/master/img/20221031140407.png)

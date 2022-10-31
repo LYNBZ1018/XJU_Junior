@@ -1,3 +1,5 @@
+
+
 # 计算机组成原理
 
    
@@ -544,6 +546,78 @@ c1是由 A0 B0 C0计算得来
 
 
 ![image-20221026135736452](https://gitee.com/lynbz1018/image/raw/master/img/20221026135737.png)
+
+
+
+### 扩展
+
+![image-20221031200950877](https://gitee.com/lynbz1018/image/raw/master/img/20221031200952.png)
+
+
+
+
+
+#### 位扩展
+
+要工作都工作
+
+![image-20221031201023036](https://gitee.com/lynbz1018/image/raw/master/img/20221031201024.png)
+
+![image-20221031201044595](https://gitee.com/lynbz1018/image/raw/master/img/20221031201045.png)
+
+
+
+#### 字扩展
+
+同一时刻只能有一个工作
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031201113.png" alt="image-20221031201112199" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031201542.png" alt="image-20221031201541136" style="zoom:67%;" />
+
+![image-20221031201648467](https://gitee.com/lynbz1018/image/raw/master/img/20221031201649.png)
+
+#### 字位扩展
+
+![image-20221031202032081](https://gitee.com/lynbz1018/image/raw/master/img/20221031202033.png)
+
+![image-20221031202654342](https://gitee.com/lynbz1018/image/raw/master/img/20221031202655.png)
+
+##### 练习
+
+![image-20221031204523793](https://gitee.com/lynbz1018/image/raw/master/img/20221031204525.png)
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221031204636202.png" alt="image-20221031204636202" style="zoom:67%;" />
+
+![image-20221031210003660](https://gitee.com/lynbz1018/image/raw/master/img/20221031210005.png)
+
+![image-20221031210016242](https://gitee.com/lynbz1018/image/raw/master/img/20221031210017.png)
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221031210702285.png" alt="image-20221031210702285" style="zoom:67%;" />
+
+
+
+![image-20221031211148010](https://gitee.com/lynbz1018/image/raw/master/img/20221031211149.png)
+
+### 高速存储器
+
+![image-20221031212345096](https://gitee.com/lynbz1018/image/raw/master/img/20221031212346.png)
+
+![image-20221031212407344](https://gitee.com/lynbz1018/image/raw/master/img/20221031212408.png)
+
+![image-20221031212602069](https://gitee.com/lynbz1018/image/raw/master/img/20221031212603.png)
+
+![image-20221031212551508](https://gitee.com/lynbz1018/image/raw/master/img/20221031212552.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
