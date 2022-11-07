@@ -383,33 +383,33 @@ readlink test2.txt  # 查看链接字符
 
 #### 添加用户
 
-![image-20221024163213138](https://gitee.com/lynbz1018/image/raw/master/img/20221024163214.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024163214.png" alt="image-20221024163213138" style="zoom:67%;" />
 
-![image-20221024163230405](https://gitee.com/lynbz1018/image/raw/master/img/20221024163231.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024163231.png" alt="image-20221024163230405" style="zoom:67%;" />
 
-![image-20221024163641070](https://gitee.com/lynbz1018/image/raw/master/img/20221024163642.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024163642.png" alt="image-20221024163641070" style="zoom:67%;" />
 
-![image-20221024163649090](https://gitee.com/lynbz1018/image/raw/master/img/20221024163650.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024163650.png" alt="image-20221024163649090" style="zoom:67%;" />
 
-![image-20221024163831267](https://gitee.com/lynbz1018/image/raw/master/img/20221024163832.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024163832.png" alt="image-20221024163831267" style="zoom:67%;" />
 
-![image-20221024163839784](https://gitee.com/lynbz1018/image/raw/master/img/20221024163840.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024163840.png" alt="image-20221024163839784" style="zoom:67%;" />
 
-![image-20221024163847363](https://gitee.com/lynbz1018/image/raw/master/img/20221024163848.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024163848.png" alt="image-20221024163847363" style="zoom:67%;" />
 
 
 
 #### 组账户管理
 
-![image-20221024165857336](https://gitee.com/lynbz1018/image/raw/master/img/20221024165858.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024165858.png" alt="image-20221024165857336" style="zoom:67%;" />
 
-![image-20221024165924605](https://gitee.com/lynbz1018/image/raw/master/img/20221024165925.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024165925.png" alt="image-20221024165924605" style="zoom:67%;" />
 
 ![image-20221024165931546](https://gitee.com/lynbz1018/image/raw/master/img/20221024165932.png)
 
-![image-20221024165939907](https://gitee.com/lynbz1018/image/raw/master/img/20221024165941.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024165941.png" alt="image-20221024165939907" style="zoom:67%;" />
 
-![image-20221024165950196](https://gitee.com/lynbz1018/image/raw/master/img/20221024165951.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221024165951.png" alt="image-20221024165950196" style="zoom:67%;" />
 
 
 
@@ -419,7 +419,7 @@ readlink test2.txt  # 查看链接字符
 
 ##### W
 
-![image-20221027112428960](https://gitee.com/lynbz1018/image/raw/master/img/20221027112431.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221027112431.png" alt="image-20221027112428960" style="zoom:67%;" />
 
 ##### id
 
@@ -463,18 +463,28 @@ readlink test2.txt  # 查看链接字符
 
 ## 进程控制
 
-![image-20221031164749823](https://gitee.com/lynbz1018/image/raw/master/img/20221031164751.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031164751.png" alt="image-20221031164749823" style="zoom:80%;" />
 
-![image-20221031164759233](https://gitee.com/lynbz1018/image/raw/master/img/20221031164800.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031164800.png" alt="image-20221031164759233" style="zoom:80%;" />
 
-![image-20221031164805758](https://gitee.com/lynbz1018/image/raw/master/img/20221031164807.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031164807.png" alt="image-20221031164805758" style="zoom:80%;" />
 
-![image-20221031164812900](https://gitee.com/lynbz1018/image/raw/master/img/20221031164814.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031164814.png" alt="image-20221031164812900" style="zoom:80%;" />
 
-![image-20221031164818979](https://gitee.com/lynbz1018/image/raw/master/img/20221031164820.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031164820.png" alt="image-20221031164818979" style="zoom:80%;" />
 
-![image-20221031164825090](https://gitee.com/lynbz1018/image/raw/master/img/20221031164826.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031164826.png" alt="image-20221031164825090" style="zoom:80%;" />
 
-![image-20221031170115804](https://gitee.com/lynbz1018/image/raw/master/img/20221031170117.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031170117.png" alt="image-20221031170115804" style="zoom:80%;" />
 
-![image-20221031170123556](https://gitee.com/lynbz1018/image/raw/master/img/20221031172059.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031172059.png" alt="image-20221031170123556" style="zoom:67%;" />
+
+## 本地存储管理
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221107155813463.png" alt="image-20221107155813463" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221107155829003.png" alt="image-20221107155829003" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221107155911775.png" alt="image-20221107155911775" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107160208.png" alt="image-20221107160041275" style="zoom:80%;" />

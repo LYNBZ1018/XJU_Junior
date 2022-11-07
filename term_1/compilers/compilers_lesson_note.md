@@ -593,3 +593,67 @@ FOLLOW(S), 看右部有哪些有S
 ![image-20221031135132049](https://gitee.com/lynbz1018/image/raw/master/img/20221031135133.png)
 
 ![image-20221031140406186](https://gitee.com/lynbz1018/image/raw/master/img/20221031140407.png)
+
+
+
+##### 例题
+
+![image-20221107122842881](https://gitee.com/lynbz1018/image/raw/master/img/20221107122952.png)
+
+![76a5e3e7eb16d243fd4998a0783a614](https://gitee.com/lynbz1018/image/raw/master/img/20221107122851.jpg)
+
+
+
+## 五、自低向上优先分析
+
+### 自底向上语法分析
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107124307.png" alt="image-20221107124306394" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107124407.png" alt="image-20221107124406018" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107124655.png" alt="image-20221107124654224" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107124702.png" alt="image-20221107124701162" style="zoom:67%;" />
+
+
+
+### 算符优先分析
+
+只考虑终结符，忽视非终结符
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107124755.png" alt="image-20221107124754404" style="zoom: 50%;" />
+
+#### 算符文法
+
+OG 算符文法
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107125254.png" alt="image-20221107125252349" style="zoom:67%;" />
+
+<=> 符号里面都有一个dot
+
+a优于b，a优先级等于b，并不能说明a b 的关系
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107130002.png" alt="image-20221107130001675" style="zoom: 80%;" />
+
+a 优先 b， b 优先 a，a  b, b a顺序不一样
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221107131217154.png" alt="image-20221107131217154" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221107131403100.png" alt="image-20221107131403100" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221107131413848.png" alt="image-20221107131413848" style="zoom:80%;" />
+
+**第一步**：求firstvt和lastvt
+
+![image-20221107132308354](https://gitee.com/lynbz1018/image/raw/master/img/20221107132310.png)
+
+**第二步**：算符优先关系表的构造
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107133919.png" alt="image-20221107133917161" style="zoom: 80%;" />
+
+**第三步**：算符优先分析算法
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107135120.png" alt="image-20221107135118024" style="zoom:80%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107140223.png" alt="image-20221107140222126" style="zoom:80%;" />

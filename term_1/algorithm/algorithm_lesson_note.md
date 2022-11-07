@@ -288,3 +288,21 @@ def gcd(a, b):
 ![image-20221026114007118](https://gitee.com/lynbz1018/image/raw/master/img/20221026114008.png)
 
 ![image-20221026114016148](https://gitee.com/lynbz1018/image/raw/master/img/20221026114017.png)
+
+
+
+## Week10
+
+`2022/11/2`
+
+## 分治算法
+
+### 金块问题
+
+![image-20221102102716678](https://gitee.com/lynbz1018/image/raw/master/img/20221102102719.png)
+
+![image-20221102102728800](https://gitee.com/lynbz1018/image/raw/master/img/20221102102823.png)
+
+![image-20221102102814992](https://gitee.com/lynbz1018/image/raw/master/img/20221102102816.png)
+
+![image-20221102104427906](https://gitee.com/lynbz1018/image/raw/master/img/20221102104429.png)

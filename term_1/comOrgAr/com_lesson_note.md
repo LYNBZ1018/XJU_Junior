@@ -489,23 +489,23 @@ c1是由 A0 B0 C0计算得来
 
 只有写的时候会修改数据
 
-![image-20221026121211965](https://gitee.com/lynbz1018/image/raw/master/img/20221026121213.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221026121213.png" alt="image-20221026121211965" style="zoom:67%;" />
 
 
 
-![image-20221026122704704](https://gitee.com/lynbz1018/image/raw/master/img/20221026122705.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221026122705.png" alt="image-20221026122704704" style="zoom:67%;" />
 
 
 
-![image-20221026123104110](https://gitee.com/lynbz1018/image/raw/master/img/20221026123105.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221026123105.png" alt="image-20221026123104110" style="zoom:67%;" />
 
-![image-20221026123316858](https://gitee.com/lynbz1018/image/raw/master/img/20221026123318.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221026123318.png" alt="image-20221026123316858" style="zoom:67%;" />
 
 
 
 ### SRAM
 
-![image-20221026124637962](https://gitee.com/lynbz1018/image/raw/master/img/20221026124639.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221026124639.png" alt="image-20221026124637962" style="zoom:67%;" />
 
 ![image-20221026130532418](https://gitee.com/lynbz1018/image/raw/master/img/20221026130533.png)
 
@@ -535,23 +535,23 @@ c1是由 A0 B0 C0计算得来
 
 
 
-![image-20221026134448748](https://gitee.com/lynbz1018/image/raw/master/img/20221026134449.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221026134449.png" alt="image-20221026134448748" style="zoom:67%;" />
 
 
 
 ### ROM
 
-![image-20221026135811662](https://gitee.com/lynbz1018/image/raw/master/img/20221026135812.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221026135812.png" alt="image-20221026135811662" style="zoom:67%;" />
 
 
 
-![image-20221026135736452](https://gitee.com/lynbz1018/image/raw/master/img/20221026135737.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221026135737.png" alt="image-20221026135736452" style="zoom:67%;" />
 
 
 
 ### 扩展
 
-![image-20221031200950877](https://gitee.com/lynbz1018/image/raw/master/img/20221031200952.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031200952.png" alt="image-20221031200950877" style="zoom:67%;" />
 
 
 
@@ -561,7 +561,7 @@ c1是由 A0 B0 C0计算得来
 
 要工作都工作
 
-![image-20221031201023036](https://gitee.com/lynbz1018/image/raw/master/img/20221031201024.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031201024.png" alt="image-20221031201023036" style="zoom:67%;" />
 
 ![image-20221031201044595](https://gitee.com/lynbz1018/image/raw/master/img/20221031201045.png)
 
@@ -575,39 +575,39 @@ c1是由 A0 B0 C0计算得来
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031201542.png" alt="image-20221031201541136" style="zoom:67%;" />
 
-![image-20221031201648467](https://gitee.com/lynbz1018/image/raw/master/img/20221031201649.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031201649.png" alt="image-20221031201648467" style="zoom:67%;" />
 
 #### 字位扩展
 
-![image-20221031202032081](https://gitee.com/lynbz1018/image/raw/master/img/20221031202033.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031202033.png" alt="image-20221031202032081" style="zoom:67%;" />
 
-![image-20221031202654342](https://gitee.com/lynbz1018/image/raw/master/img/20221031202655.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031202655.png" alt="image-20221031202654342" style="zoom:67%;" />
 
 ##### 练习
 
-![image-20221031204523793](https://gitee.com/lynbz1018/image/raw/master/img/20221031204525.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031204525.png" alt="image-20221031204523793" style="zoom:67%;" />
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221031204636202.png" alt="image-20221031204636202" style="zoom:67%;" />
 
-![image-20221031210003660](https://gitee.com/lynbz1018/image/raw/master/img/20221031210005.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031210005.png" alt="image-20221031210003660" style="zoom:80%;" />
 
-![image-20221031210016242](https://gitee.com/lynbz1018/image/raw/master/img/20221031210017.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031210017.png" alt="image-20221031210016242" style="zoom:67%;" />
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221031210702285.png" alt="image-20221031210702285" style="zoom:67%;" />
 
 
 
-![image-20221031211148010](https://gitee.com/lynbz1018/image/raw/master/img/20221031211149.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031211149.png" alt="image-20221031211148010" style="zoom:67%;" />
 
 ### 高速存储器
 
-![image-20221031212345096](https://gitee.com/lynbz1018/image/raw/master/img/20221031212346.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031212346.png" alt="image-20221031212345096" style="zoom:67%;" />
 
-![image-20221031212407344](https://gitee.com/lynbz1018/image/raw/master/img/20221031212408.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031212408.png" alt="image-20221031212407344" style="zoom:67%;" />
 
-![image-20221031212602069](https://gitee.com/lynbz1018/image/raw/master/img/20221031212603.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031212603.png" alt="image-20221031212602069" style="zoom:67%;" />
 
-![image-20221031212551508](https://gitee.com/lynbz1018/image/raw/master/img/20221031212552.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221031212552.png" alt="image-20221031212551508" style="zoom:67%;" />
 
 
 
@@ -743,4 +743,86 @@ LAD 双字长(16机器区两次) R-S
 
 ![image-20221019132619032](https://gitee.com/lynbz1018/image/raw/master/img/20221019132620.png)
 
-![image-20221019133913964](https://gitee.com/lynbz1018/image/raw/master/img/20221019133915.png)
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221019133915.png" alt="image-20221019133913964" style="zoom:67%;" />
+
+
+
+
+
+## 第五章、中央处理机
+
+### CPU的组成和功能
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102120701.png" alt="image-20221102120659746" style="zoom:67%;" />
+
+
+
+取指令的时候不能进行数据读写
+
+指令和数据没有放在一起 - **哈弗结构**
+
+1. 由**PC**指出指令地址，暂存在**IR**中
+2.  **CU**控制单元 译码后由**时序电路**发出不同的信号，**操作控制器**进行相应操作
+3. ALU、通用寄存器组、数据缓冲寄存器、程序状态字寄存器
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221102121001179.png" alt="image-20221102121001179" style="zoom:67%;" />
+
+#### CPU结构图
+
+![image-20221102122459182](https://gitee.com/lynbz1018/image/raw/master/img/20221102122500.png)
+
+#### CPU中的主要寄存器
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102123032.png" alt="image-20221102123031301" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102123042.png" alt="image-20221102123040865" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102123410.png" alt="image-20221102123408377" style="zoom:67%;" />
+
+#### 控制器的组成
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102124457.png" alt="image-20221102124455934" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102125215.png" alt="image-20221102125214646" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102130040.png" alt="image-20221102130039150" style="zoom:67%;" />
+
+
+
+### 指令周期
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102131623.png" alt="image-20221102131622626" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102131733.png" alt="image-20221102131732288" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102132505.png" alt="image-20221102132504102" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102133709.png" alt="image-20221102133707778" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140251.png" alt="image-20221102140250225" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140343.png" alt="image-20221102140341996" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140348.png" alt="image-20221102140347234" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140356.png" alt="image-20221102140355214" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140406.png" alt="image-20221102140404818" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140427.png" alt="image-20221102140425967" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140434.png" alt="image-20221102140433035" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140439.png" alt="image-20221102140438394" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140451.png" alt="image-20221102140449737" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140500.png" alt="image-20221102140459066" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140508.png" alt="image-20221102140506966" style="zoom: 67%;" />
+
+#### 用方框图表示
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140516.png" alt="image-20221102140515515" style="zoom:80%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140523.png" alt="image-20221102140521965" style="zoom:80%;" />
