@@ -602,6 +602,26 @@ FOLLOW(S), 看右部有哪些有S
 
 ![76a5e3e7eb16d243fd4998a0783a614](https://gitee.com/lynbz1018/image/raw/master/img/20221107122851.jpg)
 
+**蓝色部分还要并上FOLLOW(S),**
+
+
+
+### 作业
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221108203921921.png" alt="image-20221108203921921" style="zoom:80%;" />
+
+
+
+![f40d668141bfc195b9b5d39fd3b656e](https://gitee.com/lynbz1018/image/raw/master/img/20221108204006.jpg)
+
+
+
+![image-20221108203951833](https://gitee.com/lynbz1018/image/raw/master/img/20221108203953.png)
+
+
+
+![2f284ac3cc377de938ffde5a8df4250](https://gitee.com/lynbz1018/image/raw/master/img/20221108203958.jpg)
+
 
 
 ## 五、自低向上优先分析

@@ -306,3 +306,49 @@ def gcd(a, b):
 ![image-20221102102814992](https://gitee.com/lynbz1018/image/raw/master/img/20221102102816.png)
 
 ![image-20221102104427906](https://gitee.com/lynbz1018/image/raw/master/img/20221102104429.png)
+
+
+
+## Week11
+
+`2022/11/9`
+
+### 求数列最大字段和
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109103932.png" alt="image-20221109103931469" style="zoom: 67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109104202.png" alt="image-20221109103946208" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109104204.png" alt="image-20221109104203332" style="zoom:67%;" />
+
+![image-20221109104446296](https://gitee.com/lynbz1018/image/raw/master/img/20221109104448.png)
+
+
+
+### 求第二小的数
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109110604.png" alt="image-20221109110602775" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109110612.png" alt="image-20221109110610480" style="zoom:67%;" />
+
+
+
+## 贪婪算法
+
+### 删数
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109112854.png" alt="image-20221109112853062" style="zoom:67%;" />
+
+遇到下降的就删掉高位的
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109112910.png" alt="image-20221109112909547" style="zoom:50%;" />
+
+![image-20221109113322179](https://gitee.com/lynbz1018/image/raw/master/img/20221109113323.png)
+
+![image-20221109113402199](https://gitee.com/lynbz1018/image/raw/master/img/20221109113403.png)
+
+![image-20221109113441708](https://gitee.com/lynbz1018/image/raw/master/img/20221109113442.png)
+
+![image-20221109113500181](https://gitee.com/lynbz1018/image/raw/master/img/20221109113501.png)
+
+![image-20221109113506992](https://gitee.com/lynbz1018/image/raw/master/img/20221109113508.png)
