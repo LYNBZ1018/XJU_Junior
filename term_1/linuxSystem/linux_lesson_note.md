@@ -488,3 +488,47 @@ readlink test2.txt  # 查看链接字符
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221107155911775.png" alt="image-20221107155911775" style="zoom:67%;" />
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107160208.png" alt="image-20221107160041275" style="zoom:80%;" />
+
+
+
+## 软件包管理
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221110101458305.png" alt="image-20221110101458305" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221110102122959.png" alt="image-20221110102122959" style="zoom:67%;" />
+
+
+
+### RPM
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221110104502.png" alt="image-20221110104500650" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221110104527.png" alt="image-20221110104525298" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221110104630007.png" alt="image-20221110104630007" style="zoom:67%;" />
+
+
+
+### yum
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221110111723.png" alt="image-20221110111722245" style="zoom:67%;" />
+
+
+
+### tar
+
+```bash
+tar cvf filebak.tar file_bak/
+tar czvf filebak.tar.gz file_bak/   # gzip 进行压缩
+du -sh filebak*  # 查看文件大小
+```
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114162737887.png" alt="image-20221114162737887" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114162805724.png" alt="image-20221114162805724" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221114163704.png" alt="image-20221114163703614" style="zoom: 50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114164527747.png" alt="image-20221114164527747" style="zoom: 67%;" />

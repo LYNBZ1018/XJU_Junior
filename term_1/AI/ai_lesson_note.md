@@ -155,6 +155,30 @@
 
 
 
+## 第六章、只能计算与超越经典搜索
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221110130104.png" alt="image-20221110130103626" style="zoom: 67%;" />
+
+
+
+
+
+## 第七章、机器学习基础
+
+![image-20221117125026796](https://gitee.com/lynbz1018/image/raw/master/img/20221117125029.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

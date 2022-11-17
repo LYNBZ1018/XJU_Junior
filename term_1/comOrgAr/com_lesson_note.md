@@ -817,12 +817,110 @@ LAD 双字长(16机器区两次) R-S
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140451.png" alt="image-20221102140449737" style="zoom:67%;" />
 
-<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140500.png" alt="image-20221102140459066" style="zoom:67%;" />
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140500.png" alt="image-20221102140459066" style="zoom: 50%;" />
 
-<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140508.png" alt="image-20221102140506966" style="zoom: 67%;" />
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140508.png" alt="image-20221102140506966" style="zoom: 50%;" />
 
 #### 用方框图表示
 
-<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140516.png" alt="image-20221102140515515" style="zoom:80%;" />
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140516.png" alt="image-20221102140515515" style="zoom: 50%;" />
 
-<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140523.png" alt="image-20221102140521965" style="zoom:80%;" />
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221102140523.png" alt="image-20221102140521965" style="zoom: 50%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109123630.png" alt="image-20221109123627974" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221109124753662.png" alt="image-20221109124753662" style="zoom:67%;" />
+
+
+
+### 时序产生器和控制方式
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221109125138869.png" alt="image-20221109125138869" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221109130232.png" alt="image-20221109130230269" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221109130745603.png" alt="image-20221109130745603" style="zoom:50%;" />
+
+
+
+### 微程序控制器
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221109132245661.png" alt="image-20221109132245661" style="zoom: 67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221109132320724.png" alt="image-20221109132320724" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221109133240133.png" alt="image-20221109133240133" style="zoom:67%;" />
+
+![image-20221109134851101](https://gitee.com/lynbz1018/image/raw/master/img/20221109134853.png)
+
+![image-20221109134905194](https://gitee.com/lynbz1018/image/raw/master/img/20221109134907.png)
+
+
+
+下址字段指出下一个指令地址
+
+![image-20221109135818898](https://gitee.com/lynbz1018/image/raw/master/img/20221109135821.png)
+
+
+
+
+
+#### 微程序控制技术
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116121404.png" alt="image-20221116121403734" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116121749.png" alt="image-20221116121748476"  />
+
+
+
+相容性微操作，可以在同一个CPU周期内执行；
+
+相斥，不能再同一个CPU周期内执行；
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116123111796.png" alt="image-20221116123111796" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116123502399.png" alt="image-20221116123502399" style="zoom:67%;" />
+
+
+
+#### 微地址的形成方法
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116130019262.png" alt="image-20221116130019262" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116130055.png" alt="image-20221116130054881" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116130121822.png" alt="image-20221116130121822" style="zoom:67%;" />
+
+
+
+#### 微指令格式
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116130146.png" alt="image-20221116130145383" style="zoom:67%;" />
+
+
+
+`11.16号12周ppt`
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116132454889.png" alt="image-20221116132454889" style="zoom:80%;" />
+
+### 流水CPU
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116133755.png" alt="image-20221116133754555" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116134029816.png" alt="image-20221116134029816" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116134441132.png" alt="image-20221116134441132" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116134804008.png" alt="image-20221116134804008" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116134816008.png" alt="image-20221116134816008" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116135616646.png" alt="image-20221116135616646" style="zoom: 67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116135954790.png" alt="image-20221116135954790" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116140333608.png" alt="image-20221116140333608" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116141504.png" alt="image-20221116141502968" style="zoom:67%;" />

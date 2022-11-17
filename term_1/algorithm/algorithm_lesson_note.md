@@ -352,3 +352,21 @@ def gcd(a, b):
 ![image-20221109113500181](https://gitee.com/lynbz1018/image/raw/master/img/20221109113501.png)
 
 ![image-20221109113506992](https://gitee.com/lynbz1018/image/raw/master/img/20221109113508.png)
+
+
+
+## Week12
+
+`2022/11/16`
+
+## 动态规划
+
+### 塔数问题
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116102916.png" alt="image-20221116101724330" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116105428.png" alt="image-20221116105427896" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116105436.png" alt="image-20221116105435488" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116105513480.png" alt="image-20221116105513480" style="zoom:67%;" />

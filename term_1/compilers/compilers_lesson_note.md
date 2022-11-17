@@ -656,6 +656,8 @@ a优于b，a优先级等于b，并不能说明a b 的关系
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107130002.png" alt="image-20221107130001675" style="zoom: 80%;" />
 
+算符文法中，任意两个终结符之间**至多**有一种算符优先关系称为**算符优先文法**
+
 a 优先 b， b 优先 a，a  b, b a顺序不一样
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221107131217154.png" alt="image-20221107131217154" style="zoom:67%;" />
@@ -674,6 +676,62 @@ a 优先 b， b 优先 a，a  b, b a顺序不一样
 
 **第三步**：算符优先分析算法
 
+栈顶元素a 和 要进入的元素b 没有关系 -> 报错
+
+​											 a<b a=b小于或等于 -> 进栈
+
+a>b 规约，往栈底找等于的话就一直找，知道找到一个Xi-1 < Xi, 左部出站，右部进栈
+
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107135120.png" alt="image-20221107135118024" style="zoom:80%;" />
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221107140223.png" alt="image-20221107140222126" style="zoom:80%;" />
+
+##### 例题
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221114122602.png" alt="image-20221114122441234" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221114122558.png" alt="image-20221114122453497" style="zoom:67%;" />
+
+
+
+### 最左素短语
+
+短语、至少一个终结符、除自身不包含其他素短语
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221114123344.png" alt="image-20221114123342981" style="zoom: 80%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114123627133.png" alt="image-20221114123627133" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114125849006.png" alt="image-20221114125849006" style="zoom:80%;" />
+
+
+
+## 六、LR分析
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221114130108.png" alt="image-20221114130107430" style="zoom: 50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114130740662.png" alt="image-20221114130740662" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114130911170.png" alt="image-20221114130911170" style="zoom:50%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114133615281.png" alt="image-20221114133615281" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114132431121.png" alt="image-20221114132431121" style="zoom: 50%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114134242397.png" alt="image-20221114134242397" style="zoom:67%;" />
+
+#### 例题
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221114135336.png" alt="image-20221114135334384" style="zoom:80%;" />
+
+是LR(0)文法
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114140103188.png" alt="image-20221114140103188" style="zoom:67%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114141723174.png" alt="image-20221114141723174" style="zoom:67%;" />
+
+![d8080c12e082e124a2b44b343259d9a](https://gitee.com/lynbz1018/image/raw/master/img/20221114141742.jpg)
