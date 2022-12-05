@@ -264,6 +264,10 @@ chown liu:doc test.txt
 chmod a+x stu.txt  #所有的加
 chmod g-w,o+w stu.txt
 chmod 666 stu.txt
+u 用户
+g 组
+o 其他
+a 全部
 ```
 
 
@@ -532,3 +536,299 @@ du -sh filebak*  # 查看文件大小
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221114163704.png" alt="image-20221114163703614" style="zoom: 50%;" />
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114164527747.png" alt="image-20221114164527747" style="zoom: 67%;" />
+
+
+
+## 六、计划任务和管理服务
+
+### 守护进程
+
+都是以d结尾
+
+```bash
+systemctl status firewalld
+```
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121155853.png" alt="image-20221121155815846" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121155837.png" alt="image-20221121155836861" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121155848.png" alt="image-20221121155847845" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121155915.png" alt="image-20221121155914189" style="zoom:50%;" />
+
+
+
+### crond作业
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121160340.png" alt="image-20221121160339576" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221121161515060.png" alt="image-20221121161515060" style="zoom:50%;" />
+
+
+
+![image-20221121161342700](C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221121161342700.png)
+
+![image-20221121161321579](https://gitee.com/lynbz1018/image/raw/master/img/20221121161322.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121163018.png" alt="image-20221121163017351" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221121165049064.png" alt="image-20221121165049064" style="zoom:50%;" />
+
+
+
+## 第七、系统日常维护、服务器 安全基础、防火墙
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221124110559.png" alt="image-20221124110511053" style="zoom:50%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221124111421727.png" alt="image-20221124111421727" style="zoom:50%;" />
+
+206页
+
+### 禁止root用户登录
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128155755.png" alt="image-20221128155754140" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128155900.png" alt="image-20221128155859777" style="zoom: 67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128155930.png" alt="image-20221128155929247" style="zoom:67%;" />
+
+```bash
+visudo  # 直接进入编辑
+
+passwd -l root 
+```
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128160354.png" alt="image-20221128160353146" style="zoom: 67%;" />
+
+
+
+## 八、shell
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128164231.png" alt="image-20221128164230617" style="zoom: 67%;" />
+
+![image-20221128165811820](C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221128165811820.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128170812.png" alt="image-20221128170811531" style="zoom:67%;" />
+
+
+
+```bash
+#! /bin/bash
+chmod +x test.sh
+./test.sh
+
+# 注释
+:<<EOF
+多
+行
+EOF
+
+
+```
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205160629.png" alt="image-20221205160628198" style="zoom:67%;" />
+
+```bash
+cat > test.sh
+echo $1 $2 $3
+echo $0
+
+bash test.sh hello world nihao
+hello world nihao
+test.sh
+```
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205161649.png" alt="image-20221205161648614" style="zoom: 67%;" />
+
+```bash
+shift x 位置参数向左移动x位
+cat > test.sh
+echo $1
+shift 
+echo $1
+shift
+echo $1
+echo $0
+
+bash test.sh hello world nihao
+hello 
+world 
+nihao
+test.sh
+```
+
+![image-20221205163154720](https://gitee.com/lynbz1018/image/raw/master/img/20221205163155.png)
+
+```bash
+name=jsj20-1
+myclass=${name}-zyb
+```
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205163433.png" alt="image-20221205163432400" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205163449.png" alt="image-20221205163448134" style="zoom:50%;" />
+
+
+
+```bash
+ls *.sh
+
+ls ?  # 匹配一个字符
+ls ??   # 匹配两个字符
+
+ls -l ex[1-4].sh  # 1 2 3 4里面的任意一个
+ls -l ex[!1-4].sh  # 不是1-4的
+```
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205164414.png" alt="image-20221205164413139" style="zoom: 67%;" />
+
+```bash
+echo "\$HOME is $HOME"
+echo "Today is `date`"
+
+```
+
+![image-20221205165643708](https://gitee.com/lynbz1018/image/raw/master/img/20221205165644.png)
+
+![image-20221205165625364](https://gitee.com/lynbz1018/image/raw/master/img/20221205165626.png)
+
+
+
+## 实验课大作业
+
+
+
+281页批量添加用户
+
+
+
+搭建服务器规划
+
+多分区、最小化安装、非必要服务不开启、硬件安全
+
+课本参考
+
+
+
+
+
+# 简单复习内容
+
+## 简答题
+
+1、简述Linux的标准目录结构及其存放内容。
+
+ ```markdown
+
+ ```
+
+
+
+ 
+
+2、在Linux如何使用设备?常用的设备名有哪些?
+
+ ```markdown
+
+ ```
+
+
+
+3、使用LVM比使用固定分区有哪些优点?
+
+ ```markdown
+
+ ```
+
+
+
+4、CentOS7 Linux下常用的文件系统有哪些?
+
+ ```markdown
+
+ ```
+
+
+
+5、如何使用systemctl管理服务？
+
+ ```markdown
+
+ ```
+
+
+
+6、简述Linux 服务器的基本安全配置?
+
+ ```markdown
+
+ ```
+
+
+
+7、Linux系统中的名称补全功能是什么，它能起到什么作用?管道符的功能是什么？举例说明。
+
+ ```markdown
+
+ ```
+
+
+
+8、Centos系统常用安装软件包的方式有哪几个?请分别做简单的介绍。
+
+ ```markdown
+
+ ```
+
+
+
+9、Linux文件系统的3种基木权限是什么?Linux文件系统的3种特殊权限是什么?（掌握修改权限的方法）。
+
+ ```markdown
+
+ ```
+
+
+
+10、Vim有哪几种工作模式?怎样进行转换?（掌握定位，删除，查询，复制和移动操作方法）
+
+ ```markdown
+
+ ```
+
+
+
+## 综合题
+
+1、关于文件的基本操作（ls，cat，mkdir，cp，mv，chmod，rm）
+
+ ```markdown
+
+ ```
+
+
+
+2、shell脚本编程。（能编写简单脚本并执行，能读懂脚本）
+
+ ```markdown
+
+ ```
+
+
+
+3、多用户管理。（用户的添加，删除，组管理，指定管理员）.
+
+ ```markdown
+
+ ```

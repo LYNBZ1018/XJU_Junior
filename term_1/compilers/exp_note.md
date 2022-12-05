@@ -432,3 +432,28 @@ void print_letter(string str)
 ## Week11
 
 `2022/11/11`
+
+
+
+
+## Week13
+
+`2022/11/25`
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221125102550.png" alt="image-20221125102549603" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221125102843.png" alt="image-20221125102842440" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221125102925.png" alt="image-20221125102924253" style="zoom:50%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221125102958979.png" alt="image-20221125102958979" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221125103118.png" alt="image-20221125103117307" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221125103211.png" alt="image-20221125103210241" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221125110000.png" alt="image-20221125103259397" style="zoom:50%;" />

@@ -1,5 +1,9 @@
 
 
+
+
+
+
 # 计算机组成原理
 
    
@@ -924,3 +928,87 @@ LAD 双字长(16机器区两次) R-S
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116140333608.png" alt="image-20221116140333608" style="zoom:67%;" />
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116141504.png" alt="image-20221116141502968" style="zoom:67%;" />
+
+## 第六章、存储系统
+
+
+
+
+
+#### 全相联映射
+
+每一个主存块可以放到任意一个Cache块
+
+标记位存放块号
+
+比较Cache中的每一个块的标记位，直到匹配到了
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130120015.png" alt="image-20221130120014218" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130120449.png" alt="image-20221130120448576" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130120805.png" alt="image-20221130120804471" style="zoom:50%;" />
+
+
+
+**优缺点**
+
+空间利用率高；实现复杂，容量大使，查找麻烦
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130120901.png" alt="image-20221130120859979" style="zoom:50%;" />
+
+#### 组相联映象
+
+r = 1，每组有2块，叫2路组相联映射，
+
+r = 2，每组4块，4路组相联映射
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130122115.png" alt="image-20221130122114282" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130122912.png" alt="image-20221130122911419" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130124444.png" alt="image-20221130124443304" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130124922.png" alt="image-20221130124921359" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130125159.png" alt="image-20221130125158644" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130130153.png" alt="image-20221130130152489" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130131641.png" alt="image-20221130131640271" style="zoom:67%;" />
+
+
+
+### Cache替换策略
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130132135.png" alt="image-20221130132134863" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130132150.png" alt="image-20221130132149481" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130133456.png" alt="image-20221130133455265" style="zoom: 50%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130133909.png" alt="image-20221130133908614" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130134447.png" alt="image-20221130134446035" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130134835.png" alt="image-20221130134834128" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130134747.png" alt="image-20221130134746788" style="zoom:50%;" />
+
+### 小结
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130134905.png" alt="image-20221130134904860" style="zoom:50%;" />
+
+
+
+#### 多层次Cache存储器
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130135628.png" alt="image-20221130135627255" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130141049.png" alt="image-20221130141048580" style="zoom:50%;" />
+
+
+
+![image-20221130141446702](https://gitee.com/lynbz1018/image/raw/master/img/20221130141447.png)

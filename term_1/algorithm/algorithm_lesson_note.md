@@ -1,6 +1,18 @@
 # Algorithm
 
-   
+## 考试题型占比
+
+选择 60
+
+判断 10
+
+填空 10
+
+简答 10
+
+算法 10 
+
+
 
 ## Week1
 
@@ -370,3 +382,45 @@ def gcd(a, b):
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221116105436.png" alt="image-20221116105435488" style="zoom:67%;" />
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221116105513480.png" alt="image-20221116105513480" style="zoom:67%;" />
+
+
+
+## 深度优先搜索
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130104122.png" alt="image-20221130104120657" style="zoom: 50%;" />
+
+
+
+**邻接表法**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130105021.png" alt="image-20221130105020804" style="zoom:67%;" />
+
+**邻接矩阵**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130110056.png" alt="image-20221130110055620" style="zoom: 67%;" />
+
+#### 应用：**走迷宫**
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130111752.png" alt="image-20221130111750989" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130111929.png" alt="image-20221130111928832" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130111943.png" alt="image-20221130111942540" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130111711.png" alt="image-20221130111709963" style="zoom:50%;" />
+
+
+
+#### 七巧板涂色
+
+![image-20221130112218745](https://gitee.com/lynbz1018/image/raw/master/img/20221130112219.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130112456.png" alt="image-20221130112455037" style="zoom:67%;" />
+
+用邻接矩阵存储
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130113007.png" alt="image-20221130113006826" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130113032.png" alt="image-20221130113031374" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221130113050.png" alt="image-20221130113049002" style="zoom:67%;" />

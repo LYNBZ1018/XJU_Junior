@@ -125,6 +125,34 @@
 
 
 
+## Week13
+
+`2022/11/22`
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221122105615.png" alt="image-20221122105614104" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221122105837.png" alt="image-20221122105836727" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221122110906.png" alt="image-20221122110905022" style="zoom:50%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221122110629.png" alt="image-20221122110628940" style="zoom:50%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221122110504.png" alt="image-20221122110503278" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221122110353.png" alt="image-20221122110352226" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221122105715.png" alt="image-20221122105714697" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221122105740.png" alt="image-20221122105739926" style="zoom:50%;" />
+
+
+
+
+
 
 
 ### 论文作业

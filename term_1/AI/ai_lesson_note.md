@@ -171,6 +171,32 @@
 
 
 
+## 第八章、人工神经网络及其应用
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221124130443392.png" alt="image-20221124130443392" style="zoom:67%;" />
+
+
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221124131248679.png" alt="image-20221124131248679" style="zoom:50%;" />
+
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221124131335252.png" alt="image-20221124131335252" style="zoom:50%;" />
+
+
+
+
+
+
+
+
+
+## 课程论文
+
+截止时间`12.18`
+
+
+
+![image-20221124141712635](https://gitee.com/lynbz1018/image/raw/master/img/20221124141713.png)
+
 
 
 

@@ -1,3 +1,7 @@
+
+
+
+
 ##  Compilers
 
 
@@ -710,7 +714,7 @@ a>b 规约，往栈底找等于的话就一直找，知道找到一个Xi-1 < Xi,
 
 <img src="https://gitee.com/lynbz1018/image/raw/master/img/20221114130108.png" alt="image-20221114130107430" style="zoom: 50%;" />
 
-<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114130740662.png" alt="image-20221114130740662" style="zoom:67%;" />
+<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114130740662.png" alt="image-20221114130740662" style="zoom: 50%;" />
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114130911170.png" alt="image-20221114130911170" style="zoom:50%;" />
 
@@ -720,7 +724,7 @@ a>b 规约，往栈底找等于的话就一直找，知道找到一个Xi-1 < Xi,
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114132431121.png" alt="image-20221114132431121" style="zoom: 50%;" />
 
-
+##### LR(0)文法
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114134242397.png" alt="image-20221114134242397" style="zoom:67%;" />
 
@@ -732,6 +736,222 @@ a>b 规约，往栈底找等于的话就一直找，知道找到一个Xi-1 < Xi,
 
 <img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114140103188.png" alt="image-20221114140103188" style="zoom:67%;" />
 
-<img src="C:%5CUsers%5Clyn95%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221114141723174.png" alt="image-20221114141723174" style="zoom:67%;" />
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121120702.png" alt="image-20221114141723174" style="zoom:67%;" />
 
 ![d8080c12e082e124a2b44b343259d9a](https://gitee.com/lynbz1018/image/raw/master/img/20221114141742.jpg)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121121739.png" alt="image-20221121121732490" style="zoom:50%;" />
+
+规约看产生式的右部有几个就弹出几个，然后左部入栈，然后看goto(左边的转态栈号和符号栈)是谁就入状态栈
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121122933.png" alt="image-20221121122932381" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121122949.png" alt="image-20221121122942531" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121130112.png" alt="image-20221121130110909" style="zoom:50%;" />
+
+
+
+#### SLR(1)
+
+![image-20221121130740767](https://gitee.com/lynbz1018/image/raw/master/img/20221121130741.png)
+
+
+
+看移进和左部follow都是空
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221121131050.png" alt="image-20221121131049667" style="zoom: 67%;" />
+
+
+
+##### 例题
+
+![066d73670ea682eb8a62151aa9c343e](https://gitee.com/lynbz1018/image/raw/master/img/20221121135946.jpg)![image-20221121135255889](https://gitee.com/lynbz1018/image/raw/master/img/20221121135257.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128121729.png" alt="image-20221128121728198" style="zoom:67%;" />
+
+![image-20221121140845253](https://gitee.com/lynbz1018/image/raw/master/img/20221121140846.png)
+
+
+
+![ff92534e9090a41917f825a29563ddf](https://gitee.com/lynbz1018/image/raw/master/img/20221121140854.jpg)
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128121531.png" alt="image-20221128121530485" style="zoom:67%;" />
+
+
+
+#### LR(1)分析
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128122519.png" alt="image-20221128122517908" style="zoom:50%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128122452.png" alt="image-20221128122451661" style="zoom: 50%;" />
+
+![](https://gitee.com/lynbz1018/image/raw/master/img/20221128123338.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128130310.png" alt="image-20221128130308986" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128131225.png" alt="image-20221128131223881" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128131236.png" alt="image-20221128131235702" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128132100.png" alt="image-20221128132059429" style="zoom:50%;" />
+
+
+
+#### LALR(1)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128133354.png" alt="image-20221128133353275" style="zoom: 50%;" />
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221201130715.png" alt="image-20221201130714656" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221201130620.png" alt="image-20221201130617781" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128133430.png" alt="image-20221128133429183" style="zoom:50%;" />
+
+
+
+### 总结
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128133604.png" alt="image-20221128133603562" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128133920.png" alt="image-20221128133919576" style="zoom:50%;" />
+
+
+
+## 七、语法制导翻译和中间代码生成
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128134450.png" alt="image-20221128134449548" style="zoom: 33%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128134458.png" alt="image-20221128134457624" style="zoom: 33%;" />
+
+
+
+### 7.1属性文法
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128134916.png" alt="image-20221128134915339" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128135157.png" alt="image-20221128135155943" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128140342.png" alt="image-20221128140341674" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128140349.png" alt="image-20221128140348064" style="zoom:50%;" />
+
+### 7.2语法制导翻译
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221128140425.png" alt="image-20221128140423979" style="zoom: 50%;" />
+
+![image-20221205115850593](https://gitee.com/lynbz1018/image/raw/master/img/20221205115851.png)
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205120359.jpg" alt="894a3b57e12d92242c6785cb42a0e61" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205121146.png" alt="image-20221205121145191" style="zoom:67%;" />
+
+
+
+### 7.3中间代码生成
+
+主要掌握中间代码的表示形式
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205121411.png" alt="image-20221205121410104" style="zoom:50%;" />
+
+
+
+#### 逆波兰式 必考
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205121929.png" alt="image-20221205121928354" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205122140.png" alt="image-20221205122139636" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205123023.png" alt="image-20221205123022023" style="zoom: 67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205123426.png" alt="image-20221205123425011" style="zoom:50%;" />
+
+先改写为if语句
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205124902.png" alt="image-20221205124901654" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205125252.png" alt="image-20221205125251103" style="zoom:50%;" />
+
+#### 三元式
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205125649.png" alt="image-20221205125648109" style="zoom:50%;" />
+
+任意跳转的用/ ，4用的是/ 不是1
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205125819.png" alt="image-20221205125818907" style="zoom:50%;" />
+
+for循环要改写成if语句加上goto语句， 
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205130555.png" alt="image-20221205130554147" style="zoom:50%;" />
+
+##### 树形表示
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205130718.png" alt="image-20221205130717302" style="zoom:50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205130725.png" alt="image-20221205130723993" style="zoom:50%;" />
+
+##### 间接码表
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205131220.png" alt="image-20221205131219005" style="zoom:50%;" />
+
+
+
+### 四元式
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205131540.png" alt="image-20221205131538923" style="zoom: 50%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205131737.png" alt="image-20221205131736173" style="zoom:50%;" />
+
+
+
+## 八、符号表
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205132136.png" alt="image-20221205132135151" style="zoom:67%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205132323.png" alt="image-20221205132322552" style="zoom:50%;" />
+
+![image-20221205133108815](https://gitee.com/lynbz1018/image/raw/master/img/20221205133109.png)
+
+![image-20221205133146657](https://gitee.com/lynbz1018/image/raw/master/img/20221205133147.png)
+
+![image-20221205133236895](https://gitee.com/lynbz1018/image/raw/master/img/20221205133237.png)
+
+![image-20221205133245405](https://gitee.com/lynbz1018/image/raw/master/img/20221205133246.png)
+
+
+
+## 九、存储
+
+![image-20221205133701012](https://gitee.com/lynbz1018/image/raw/master/img/20221205133702.png)
+
+![image-20221205133806944](https://gitee.com/lynbz1018/image/raw/master/img/20221205133808.png)
+
+
+
+
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205133937.png" alt="image-20221205133936324" style="zoom: 80%;" />
+
+<img src="https://gitee.com/lynbz1018/image/raw/master/img/20221205134428.png" alt="image-20221205134427003" style="zoom:50%;" />
+
+![image-20221205134851278](https://gitee.com/lynbz1018/image/raw/master/img/20221205134852.png)
+
+![image-20221205135055958](https://gitee.com/lynbz1018/image/raw/master/img/20221205135057.png)
+
+
+
+### 9.3参数传递
+
+![image-20221205140436171](https://gitee.com/lynbz1018/image/raw/master/img/20221205140437.png)
+
+
+
+这个存储4分，存储策略2分
+
+![image-20221205141133362](https://gitee.com/lynbz1018/image/raw/master/img/20221205141134.png)
